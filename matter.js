@@ -1,8 +1,8 @@
-var canvas = $('#wrapper-canvas').get(0)
+var canvas = document.querySelector("#wrapper-canvas");
 
 var dimensions = {
-  width: $(window).width(),
-  height: $(window).height(),
+  width: window.innerWidth,
+  height: window.innerHeight,
 }
 
 Matter.use('matter-attractors')
