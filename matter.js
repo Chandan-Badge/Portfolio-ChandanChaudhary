@@ -56,7 +56,7 @@ function runMatter() {
   var attractiveBody = Bodies.circle(
     render.options.width / 2,
     render.options.height / 2,
-    Math.max(dimensions.width / 25, dimensions.height / 25) / 2,
+    Math.max(dimensions.width / 35, dimensions.height / 35) / 2,
     {
       render: {
         fillStyle: `#000`,
