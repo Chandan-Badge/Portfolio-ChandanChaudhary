@@ -13,11 +13,12 @@
 
 </head>
 <body class="bg-[#111] text-white">
+    <!-- 1st Part Section -->
     <section class="flex flex-col justify-between h-screen">
-        <!-- Top Bar -->
+        <!-- Top Bar of 1st Section -->
         <header class="z-10 pointer-events-none flex items-center justify-between w-full px-12 mt-4 max-w-screen-2xl mx-auto">
             
-            <img src="/assets/images/C2-Logo-White.png" alt="logo" class="h-24 w-24">
+            <img src="assets/images/C2-Logo-White.png" alt="logo" class="h-24 w-24">
 
             <div class="flex gap-6 pointer-events-auto">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon hidden"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
@@ -34,10 +35,7 @@
             </div>
         </header>
 
-        <!-- Mid Bar -->
-
-        <!-- Links Section -->
-
+        <!-- Mid Bar of 1st Section -->
         <div class="absolute inset-0" id="wrapper-canvas">
             <!-- <canvas></canvas> -->
         </div>
@@ -45,7 +43,7 @@
         <div class="flex -mt-0">
 
             <div class="w-full px-4 max-w-screen-xl mx-auto relative">
-                <img src="/assets/images/C2-Logo-Color.png" alt="logo" class="pointer-events-none w-[230px] sm:w-[400px] md:w-[550px] lg:w-[650px] h-auto absolute -top-10 left-1/5 -translate-y-1/3 translate-x-1/4 md:translate-x-1/3 lg:translate-x-1/2 logo">
+                <img src="assets/images/C2-Logo-Color.png" alt="logo" class="pointer-events-none w-[230px] sm:w-[400px] md:w-[550px] lg:w-[650px] h-auto absolute -top-10 left-1/5 -translate-y-1/3 translate-x-1/4 md:translate-x-1/3 lg:translate-x-1/2 logo">
 
                 <div class="relative ml-4 md:ml-12">
                     <h3 class="pointer-events-none text-xs md:text-xl font-[poppins] font-bold">Hello 👋, From</h3>
@@ -64,6 +62,7 @@
 
             </div>
 
+            <!-- Top-right -> Links Section -->
             <ul class="ml-auto space-y-6 text-[#b0b2c3] absolute right-4 sm:right-8">
                 <li class="hover:text-white">
                     <a href="https://www.linkedin.com/in/chandan-chaudhary-88822127a/" target="_blank"><svg class="w-6 sm:w-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -104,6 +103,7 @@
             </ul>
         </div>
 
+        <!-- Bottom Button of 1st Section -->
         <div class="relative after:content-[''] after:absolute after:w-[2px] after:h-[20px] after:bg-[#444] self-center after:left-1/2 after:-translate-x-1/2 after:top-[100px]">
 
             <button class="font-[nunito] bg-[#4595eb] px-5 py-2 rounded font-extrabold bg-gradient-to-l from-[#1595b6] to-[#1f2667e6] relative hover:scale-110 ease-in-out duration-100 group self-center mb-20">
@@ -117,10 +117,146 @@
         
     </section>
 
+    <!-- Project Section -->
+    <section class="max-w-screen-xl mx-auto px-4 relative">
+      <h2
+        class="text-4xl w-max mx-auto text-center bg-[#111] relative z-10 text-[#1788ae] border-b-2 border-[#1788ae]">
+        Latest Works
+      </h2>
+      <div class="flex gap-[80px] items-center mt-12">
+        <a href="#" class="flex w-full">
+
+          <div class="relative group hover:scale-105 ease-in-out duration-200">
+            <span class="flex bg-[#fc815c] absolute top-5 left-1/2 -translate-x-1/2 px-3 py-1 rounded w-max items-center gap-1 after:content-[''] after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2 group-hover:-top-9 ease-jump duration-200">LinkTree
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </span>
+
+            <img
+              class="max-w-[400px] mr-auto relative"
+              src="./assets/Projects-list/LinkTree.png"
+              alt=""
+            />
+  
+            
+          </div>
+
+
+        </a>
+
+        <div class="w-full">
+          <h3 class="text-[#fc815c] font-bold text-4xl">LinkTree</h3>
+          <span class="text-[#fc815c] text-lg">(Chandan Chaudhary)</span>
+          <p class="text-justify mt-2">
+            Explore my world! This Linktree is your gateway to my online presence, connecting you to my social media, portfolio, and more.
+          </p>
+
+          <ul class="flex flex-wrap gap-2 mt-2">
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+              #react.js
+            </li>
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+              #html
+            </li>
+            <!-- <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+              #node.js
+            </li> -->
+            <!-- <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+              #swiper.js
+            </li> -->
+            <!-- <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+              #mongoDB
+            </li> -->
+            <!-- <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+              #mongoose
+            </li> -->
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+              #vanillacss
+            </li>
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+              #javascript
+            </li>
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+              #figma
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="flex gap-[80px] items-center mt-12">
+        <div class="w-full">
+          <h3 class="text-[#ffffc7] font-bold text-4xl">Tic-Tac-Toe</h3>
+          <span class="text-[#ffffc7] text-lg">(Game)</span>
+          <p class="text-justify mt-2">
+            Experience the classic game of Tic-Tac-Toe online! Challenge friends or play against the computer in this engaging and intuitive web-based game. Enjoy clean graphics, smooth gameplay, and a user-friendly interface.
+          </p>
+
+          <ul class="flex flex-wrap gap-2 mt-2">
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+              #html
+            </li>
+            <!-- <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+              #express.js
+            </li> -->
+            <!-- <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+              #node.js
+            </li> -->
+            <!-- <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+              #swiper.js
+            </li> -->
+            <!-- <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+              #mongoDB
+            </li> -->
+            <!-- <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+              #mongoose
+            </li> -->
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+              #vanillacss
+            </li>
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+              #javascript
+            </li>
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+              #figma
+            </li>
+          </ul>
+        </div>
+        <a href="#" class="flex w-full">
+
+          <div class="relative group hover:scale-105 ease-in-out duration-200">
+
+            <span class="flex bg-[#ffffc7] absolute top-5 left-1/2 -translate-x-1/2 px-3 py-1 rounded w-max items-center gap-1 after:content-[''] after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2 group-hover:-top-9 ease-jump duration-200 text-black">Tic-Tac-Toe
+
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </span>
+
+            <img
+              class="max-w-[400px] mr-auto relative"
+              src="./assets/Projects-list/Tic-Tac-Toe.png"
+              alt=""
+            />
+  
+            
+          </div>
+
+
+        </a>
+      </div>
+
+      <div class="w-[2px] bg-[#1788ae] absolute top-0 bottom-0 left-1/2 -translate-x-1/2"></div>
+    </section>
+
         <!-- <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script> -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.12.0/matter.min.js"></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.12.0/matter.min.js"></script>
         <script src="https://cdn/jsdelivr.net/npm/matter-wrap@0.2.0/build/matter-wrap.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/matter-attractors@0.1.6/build/matter-attractors.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/matter-attractors@0.1.6/build/matter-attractors.min.js"></script> -->
  
 </body>
 </html>
