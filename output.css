@@ -805,8 +805,12 @@ video {
   margin-right: auto;
 }
 
-.mt-14 {
-  margin-top: 3.5rem;
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
 }
 
 .mt-2 {
@@ -815,10 +819,6 @@ video {
 
 .mt-4 {
   margin-top: 1rem;
-}
-
-.mt-8 {
-  margin-top: 2rem;
 }
 
 .box-border {
@@ -960,6 +960,10 @@ video {
   width: 2px;
 }
 
+.w-\[80vw\] {
+  width: 80vw;
+}
+
 .w-\[this-is\\\\\] {
   width: this-is\\;
 }
@@ -981,8 +985,8 @@ video {
   width: max-content;
 }
 
-.max-w-\[300px\] {
-  max-width: 300px;
+.max-w-\[200px\] {
+  max-width: 200px;
 }
 
 .max-w-\[400px\] {
@@ -1554,10 +1558,6 @@ video {
 
 .gap-6 {
   gap: 1.5rem;
-}
-
-.gap-\[80px\] {
-  gap: 80px;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -2355,11 +2355,6 @@ video {
   line-height: 1.5rem;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -2939,6 +2934,21 @@ video {
   top: 100px;
 }
 
+.after\:-bottom-3::after {
+  content: var(--tw-content);
+  bottom: -0.75rem;
+}
+
+.after\:-bottom-4::after {
+  content: var(--tw-content);
+  bottom: -1rem;
+}
+
+.after\:-bottom-1::after {
+  content: var(--tw-content);
+  bottom: -0.25rem;
+}
+
 .after\:h-4::after {
   content: var(--tw-content);
   height: 1rem;
@@ -2949,6 +2959,11 @@ video {
   height: 20px;
 }
 
+.after\:h-3::after {
+  content: var(--tw-content);
+  height: 0.75rem;
+}
+
 .after\:w-4::after {
   content: var(--tw-content);
   width: 1rem;
@@ -2957,6 +2972,11 @@ video {
 .after\:w-\[2px\]::after {
   content: var(--tw-content);
   width: 2px;
+}
+
+.after\:w-3::after {
+  content: var(--tw-content);
+  width: 0.75rem;
 }
 
 .after\:-translate-x-1\/2::after {
@@ -3069,6 +3089,14 @@ video {
     width: 400px;
   }
 
+  .sm\:w-full {
+    width: 100%;
+  }
+
+  .sm\:max-w-\[300px\] {
+    max-width: 300px;
+  }
+
   .sm\:flex-row {
     flex-direction: row;
   }
@@ -3132,6 +3160,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:relative {
+    position: relative;
+  }
+
   .lg\:w-\[650px\] {
     width: 650px;
   }
