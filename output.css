@@ -3226,6 +3226,10 @@ video {
   top: 3rem;
 }
 
+.group:hover .group-hover\:flex {
+  display: flex;
+}
+
 @media (min-width: 640px) {
   .sm\:right-8 {
     right: 2rem;
