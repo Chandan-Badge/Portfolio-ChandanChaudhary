@@ -1,3 +1,13 @@
 #wrapper-canvas canvas {
     max-width: 100%;
 }
+
+.container {
+    visibility: hidden;
+    /* transform: scale(0.1); */
+}
+
+.open-popup {
+    visibility: visible;
+    /* transform: scale(1); */
+}
