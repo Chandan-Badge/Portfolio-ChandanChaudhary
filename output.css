@@ -3216,47 +3216,6 @@ video {
   top: 100px;
 }
 
-.after\:bottom-3::after {
-  content: var(--tw-content);
-  bottom: 0.75rem;
-}
-
-.after\:top-3::after {
-  content: var(--tw-content);
-  top: 0.75rem;
-}
-
-.after\:top-1\/2::after {
-  content: var(--tw-content);
-  top: 50%;
-}
-
-.after\:my-auto::after {
-  content: var(--tw-content);
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.after\:ml-3::after {
-  content: var(--tw-content);
-  margin-left: 0.75rem;
-}
-
-.after\:mt-auto::after {
-  content: var(--tw-content);
-  margin-top: auto;
-}
-
-.after\:mt-2::after {
-  content: var(--tw-content);
-  margin-top: 0.5rem;
-}
-
-.after\:mt-5::after {
-  content: var(--tw-content);
-  margin-top: 1.25rem;
-}
-
 .after\:ml-2::after {
   content: var(--tw-content);
   margin-left: 0.5rem;
@@ -3265,16 +3224,6 @@ video {
 .after\:inline-block::after {
   content: var(--tw-content);
   display: inline-block;
-}
-
-.after\:inline::after {
-  content: var(--tw-content);
-  display: inline;
-}
-
-.after\:inline-flex::after {
-  content: var(--tw-content);
-  display: inline-flex;
 }
 
 .after\:h-2::after {
@@ -3300,16 +3249,6 @@ video {
 .after\:h-\[20px\]::after {
   content: var(--tw-content);
   height: 20px;
-}
-
-.after\:h-6::after {
-  content: var(--tw-content);
-  height: 1.5rem;
-}
-
-.after\:h-\[22px\]::after {
-  content: var(--tw-content);
-  height: 22px;
 }
 
 .after\:w-2::after {
@@ -3338,43 +3277,10 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.after\:-translate-y-1\/2::after {
-  content: var(--tw-content);
-  --tw-translate-y: -50%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .after\:rotate-45::after {
   content: var(--tw-content);
   --tw-rotate: 45deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.after\:items-center::after {
-  content: var(--tw-content);
-  align-items: center;
-}
-
-.after\:justify-center::after {
-  content: var(--tw-content);
-  justify-content: center;
-}
-
-.after\:bg-\[\#444\]::after {
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(68 68 68 / var(--tw-bg-opacity, 1));
-}
-
-.after\:bg-\[\#fff\]::after {
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
-}
-
-.after\:bg-inherit::after {
-  content: var(--tw-content);
-  background-color: inherit;
 }
 
 .after\:bg-\[\#1595b6\]::after {
@@ -3383,9 +3289,15 @@ video {
   background-color: rgb(21 149 182 / var(--tw-bg-opacity, 1));
 }
 
-.after\:text-center::after {
+.after\:bg-\[\#444\]::after {
   content: var(--tw-content);
-  text-align: center;
+  --tw-bg-opacity: 1;
+  background-color: rgb(68 68 68 / var(--tw-bg-opacity, 1));
+}
+
+.after\:bg-inherit::after {
+  content: var(--tw-content);
+  background-color: inherit;
 }
 
 .after\:content-\[\'\'\]::after {
