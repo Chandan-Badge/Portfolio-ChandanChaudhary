@@ -3216,21 +3216,6 @@ video {
   top: 100px;
 }
 
-.after\:ml-2::after {
-  content: var(--tw-content);
-  margin-left: 0.5rem;
-}
-
-.after\:ml-1::after {
-  content: var(--tw-content);
-  margin-left: 0.25rem;
-}
-
-.after\:ml-\[6px\]::after {
-  content: var(--tw-content);
-  margin-left: 6px;
-}
-
 .after\:ml-\[4px\]::after {
   content: var(--tw-content);
   margin-left: 4px;
@@ -3565,6 +3550,11 @@ video {
     padding-right: 6rem;
   }
 
+  .sm\:px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
   .sm\:px-5 {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
@@ -3573,11 +3563,6 @@ video {
   .sm\:py-16 {
     padding-top: 4rem;
     padding-bottom: 4rem;
-  }
-
-  .sm\:px-3 {
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
   }
 
   .sm\:text-center {
