@@ -53,7 +53,7 @@ darkBtn.addEventListener("click", () => {
 // Auto Typing
 const autoType = document.querySelector(".auto-type");
 
-let typeList = ["Java(DSA)", "Full Stack Developer", "C++", "Python"];
+let typeList = ["Java(DSA)", "Full Stack Developer", "Javascript", "C++", "Python", "Git & GitHub", "HTML", "CSS", "React", "Node.js", "Figma", "Terminal", "Bootstrap", "Tailwind"];
 
 
 function multiType(typeList, element, time) {
