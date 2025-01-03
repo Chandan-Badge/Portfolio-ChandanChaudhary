@@ -1,5 +1,5 @@
 * {
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
 }
 
 #wrapper-canvas canvas {
@@ -8,10 +8,24 @@
 
 .container {
     visibility: hidden;
-    /* transform: scale(0.1); */
+    /* transform: scale(0.9); */
+    /* margin-right: 550px; */
+    /* left: 0px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px; */
 }
 
 .open-popup {
     visibility: visible;
     /* transform: scale(1); */
+    /* left: 50%;
+    top: 50%;
+    bottom: 50%;
+    right: 50%;
+
+    transform: translateX(-50%);
+    transform: translateY(-50%); */
+    /* transform: translate(-50%);
+    transform: translate(-50%); */
 }
