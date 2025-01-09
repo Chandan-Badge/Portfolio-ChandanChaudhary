@@ -13,7 +13,6 @@ closeBtn.addEventListener("click", () => {
 
 // Back to Top & Scroll
 let dragBtn = document.querySelector(".drag-btn");
-
 let move = document.querySelector(".move");
 
 dragBtn.addEventListener("click", () => {
@@ -98,3 +97,25 @@ function multiType(typeList, element, time) {
 }
 
 multiType(typeList, autoType);
+
+// footer scroll
+let aboutFoot = document.querySelector(".about-foot");
+aboutFoot.addEventListener("click", () => {
+    window.scrollTo(0, 0);
+})
+
+let resumeFoot = document.querySelector(".resume-foot");
+resumeFoot.addEventListener("click", () => {
+    window.scrollTo(0, 0);
+})
+
+let projectFoot = document.querySelector(".project-foot");
+projectFoot.addEventListener("click", () => {
+    window.scrollTo(0, 700);
+})
+
+let contactFoot = document.querySelector(".contact-foot");
+
+contactFoot.addEventListener("click", () => {
+    window.scrollTo(0, 2700);
+})
