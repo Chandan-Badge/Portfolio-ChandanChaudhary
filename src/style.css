@@ -29,3 +29,14 @@
     /* transform: translate(-50%);
     transform: translate(-50%); */
 }
+
+/* Back to Top */
+.totop-btn {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.visible {
+    opacity: 1;
+    pointer-events: all;
+}

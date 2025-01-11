@@ -119,3 +119,18 @@ let contactFoot = document.querySelector(".contact-foot");
 contactFoot.addEventListener("click", () => {
     window.scrollTo(0, 2700);
 })
+
+// Back to Top
+let totopBtn = document.querySelector(".totop-btn");
+totopBtn.addEventListener("click", () => {
+    window.scrollTo(0, 0);
+})
+
+window.addEventListener("scroll", () => {
+    if(window.pageYOffset > 100) {
+        totopBtn.classList.add("visible");
+    }
+    else {
+        totopBtn.classList.remove("visible");
+    }
+})
