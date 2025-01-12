@@ -680,8 +680,8 @@ video {
   bottom: 0px;
 }
 
-.bottom-2 {
-  bottom: 0.5rem;
+.bottom-4 {
+  bottom: 1rem;
 }
 
 .end-1 {
@@ -734,10 +734,6 @@ video {
 
 .top-5 {
   top: 1.25rem;
-}
-
-.bottom-4 {
-  bottom: 1rem;
 }
 
 .isolate {
@@ -2280,11 +2276,6 @@ video {
   background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));
 }
 
-.bg-gray-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(107 114 128 / var(--tw-bg-opacity, 1));
-}
-
 .bg-gradient-to-l {
   background-image: linear-gradient(to left, var(--tw-gradient-stops));
 }
@@ -3095,12 +3086,8 @@ video {
   transition-duration: 150ms;
 }
 
-.delay-200 {
-  transition-delay: 200ms;
-}
-
-.delay-150 {
-  transition-delay: 150ms;
+.delay-75 {
+  transition-delay: 75ms;
 }
 
 .delay-100 {
@@ -3109,10 +3096,6 @@ video {
 
 .duration-100 {
   transition-duration: 100ms;
-}
-
-.duration-150 {
-  transition-duration: 150ms;
 }
 
 .duration-200 {
@@ -3125,6 +3108,10 @@ video {
 
 .duration-500 {
   transition-duration: 500ms;
+}
+
+.duration-150 {
+  transition-duration: 150ms;
 }
 
 .ease-in {
@@ -3394,6 +3381,11 @@ video {
   color: rgb(21 149 182 / var(--tw-text-opacity, 1));
 }
 
+.hover\:text-\[\#1788ae\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(23 136 174 / var(--tw-text-opacity, 1));
+}
+
 .hover\:text-\[\#fff\]:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
@@ -3402,11 +3394,6 @@ video {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.hover\:text-\[\#1788ae\]:hover {
-  --tw-text-opacity: 1;
-  color: rgb(23 136 174 / var(--tw-text-opacity, 1));
 }
 
 .hover\:underline:hover {
