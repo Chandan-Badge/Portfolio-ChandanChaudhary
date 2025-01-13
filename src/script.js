@@ -29,15 +29,14 @@ backtoTop.addEventListener("click", () => {
 let darkBtn = document.querySelector(".dark-btn");
 let lightBtn = document.querySelector(".light-btn");
 let body = document.querySelector("body");
+const html = document.querySelector("html");
 
 lightBtn.addEventListener("click", () => {
     darkBtn.classList.add("visible");
     darkBtn.classList.remove("hidden");
     lightBtn.classList.add("hidden");
 
-    body.classList.add("light");
-
-    // body.style.background = "#fff";
+    html.classList.add("dark");
 })
 
 darkBtn.addEventListener("click", () => {
@@ -45,7 +44,7 @@ darkBtn.addEventListener("click", () => {
     lightBtn.classList.remove("hidden");
     darkBtn.classList.add("hidden");
 
-    body.classList.remove("light");
+    html.classList.remove("dark");
 })
 
 
