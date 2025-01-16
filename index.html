@@ -19,7 +19,7 @@
 
 
     <!-- 1st Part Section -->
-    <section class="flex flex-col justify-between h-screen bg-[#111]">
+    <section class="flex flex-col justify-between h-screen bg-[#111] dark:bg-[#1d1e26]">
         <!-- Top Bar of 1st Section -->
         <header class="z-10 pointer-events-none flex items-center justify-between w-full px-4 sm:px-12 mt-4 max-w-screen-2xl mx-auto">
             
@@ -51,14 +51,14 @@
         </header>
 
         <!-- About me Popup -->
-          <div class="container absolute z-20 left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 w-[90vw] text-white bg-[#191919] rounded-lg px-8 sm:px-24 py-8 sm:py-16 flex flex-col lg:flex-row justify-center gap-6 transition-all duration-150 ease-in-out">
+          <div class="container absolute z-20 left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 w-[90vw] text-white bg-[#191919] dark:bg-[#fff] rounded-lg px-8 sm:px-24 py-8 sm:py-16 flex flex-col lg:flex-row justify-center gap-6 transition-all duration-150 ease-in-out">
             <!-- Details Part -->
             <div class="w-full">
                 <h2 class="text-[#1788ae] font-bold text-xl sm:text-2xl">ABOUT ME</h2>
-                <p class="mt-6 text-sm sm:text-base">Aspiring and results-oriented Student with a strong desire to learn and grow in the tech industry. passion for innovative technology solutions and a solid foundation in programming, algorithms, and software development.</p>
+                <p class="mt-6 text-sm text-[#fff] dark:text-[#1f1f1f] sm:text-base">Aspiring and results-oriented Student with a strong desire to learn and grow in the tech industry. passion for innovative technology solutions and a solid foundation in programming, algorithms, and software development.</p>
 
                 <!-- Technologies Known -->
-                <ul class="flex gap-3 flex-wrap mt-6">
+                <ul class="flex gap-3 flex-wrap mt-6 text-[#fff] dark:text-[#333333]">
                     <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-xs sm:text-sm">#java</li>
                     <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-xs sm:text-sm">#javascript</li>
                     <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-xs sm:text-sm">#dsa</li>
@@ -104,18 +104,18 @@
                     </span>
                     
                     <span class="relative flex flex-col items-center group">
-                        <span class="invisible group-hover:visible group-hover:flex w-max absolute bg-[#fff] text-[#111] py-1 px-3 left-1/2 -translate-x-1/2 rounded-2xl items-center gap-1 after:content-[''] after:w-2 after:h-2 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-1 top-2 group-hover:-top-14 duration-200 ease-in-out">Express.JS</span>
-                        <svg class="h-8 sm:h-12 w-8 sm:w-12"
+                        <span class="invisible group-hover:visible group-hover:flex w-max absolute bg-[#fff] text-[#111] dark:bg-[#111] dark:text-[#fff] py-1 px-3 left-1/2 -translate-x-1/2 rounded-2xl items-center gap-1 after:content-[''] after:w-2 after:h-2 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-1 top-2 group-hover:-top-14 duration-200 ease-in-out">Express.JS</span>
+                        <svg class="h-8 sm:h-12 w-8 sm:w-12 text-[#fff] dark:text-[#111]"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 32 32"
                         >
-                            <g fill="#ffff">
+                            <g fill="currentColor">
                                 <path
                                     d="M32 24.795c-1.164.296-1.884.013-2.53-.957l-4.594-6.356-.664-.88-5.365 7.257c-.613.873-1.256 1.253-2.4.944l6.87-9.222-6.396-8.33c1.1-.214 1.86-.105 2.535.88l4.765 6.435 4.8-6.4c.615-.873 1.276-1.205 2.38-.883l-2.48 3.288-3.36 4.375c-.4.5-.345.842.023 1.325L32 24.795zM.008 15.427l.562-2.764C2.1 7.193 8.37 4.92 12.694 8.3c2.527 1.988 3.155 4.8 3.03 7.95H1.48c-.214 5.67 3.867 9.092 9.07 7.346 1.825-.613 2.9-2.042 3.438-3.83.273-.896.725-1.036 1.567-.78-.43 2.236-1.4 4.104-3.45 5.273-3.063 1.75-7.435 1.184-9.735-1.248C1 21.6.434 19.812.18 17.9c-.04-.316-.12-.617-.18-.92q.008-.776.008-1.552zm1.498-.38h12.872c-.084-4.1-2.637-7.012-6.126-7.037-3.83-.03-6.58 2.813-6.746 7.037z"
                                 />
                             </g>
                         </svg>
-                        <p class="mt-4 text-lg sm:text-xl text-[#ffff]">E</p>
+                        <p class="mt-4 text-lg sm:text-xl text-[#ffff] dark:text-[#111]">E</p>
                     </span>
 
                     <span class="relative flex flex-col items-center group">
@@ -162,8 +162,8 @@
             </div>
 
             <!-- Close Button -->
-            <button type="button" title="close" class="close-btn bg-[#353535] w-6 h-6 absolute flex justify-center items-center rounded-full p-2 right-4 md:right-10 top-4 md:top-8 hover:rotate-90 duration-200 ease-in-out hover:scale-105">
-                <svg class="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="#ffffff" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
+            <button type="button" title="close" class="close-btn bg-[#353535] dark:bg-[#dfdfdf] w-6 h-6 absolute flex justify-center items-center rounded-full p-2 right-4 md:right-10 top-4 md:top-8 hover:rotate-90 duration-200 ease-in-out hover:scale-105">
+                <svg class="text-[#fff] dark:text-[#111]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
             </button>
         </div>
 
@@ -175,7 +175,7 @@
         <div class="flex -mt-0">
 
             <div class="w-full px-4 max-w-screen-xl mx-auto relative">
-                <img src="assets/images/C2-Logo-Color.png" alt="logo" class="pointer-events-none w-[230px] sm:w-[400px] md:w-[550px] lg:w-[650px] h-auto absolute -top-10 left-1/5 -translate-y-1/3 translate-x-1/4 md:translate-x-1/3 lg:translate-x-1/2 logo">
+                <img src="assets/images/C2-Logo-Color.png" alt="logo" class="pointer-events-none w-[260px] sm:w-[400px] md:w-[550px] lg:w-[650px] h-auto absolute -top-10 left-1/5 -translate-y-1/3 translate-x-1/4 md:translate-x-1/3 lg:translate-x-1/2 logo">
 
                 <div class="relative ml-4 md:ml-12">
                     <h3 class="pointer-events-none text-xs md:text-xl font-[poppins] font-bold">Hello 👋, From</h3>
@@ -581,7 +581,7 @@
 
     <!-- Connect Section -->
     <section>
-      <h2 class="text-2xl sm:text-4xl text-center relative z-10 font-bold px-4 py-2 w-max mx-auto mt-14 text-[#1788ae] bg-[#111] dark:bg-[#fff] border-2 rounded border-[#1788ae]">Get in Touch!</h2>
+      <h2 class="text-2xl sm:text-4xl text-center relative z-10 font-bold px-4 py-2 w-max mx-auto mt-14 text-[#1788ae] bg-[#111] dark:bg-[#fff] border-2 rounded border-[#1788ae]">Let's Talk.</h2>
       <!-- <p class="text-[#1788ae] dark:text-gray-500 text-center mx-auto mt-5">New projects, freelance inquiry or even a coffee.</p> -->
 
       <div class="flex flex-col lg:flex-row items-center mt-10">
