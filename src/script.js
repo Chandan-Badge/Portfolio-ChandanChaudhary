@@ -113,10 +113,10 @@ projectFoot.addEventListener("click", () => {
     window.scrollTo(0, 700);
 })
 
-let contactFoot = document.querySelector(".contact-foot");
+let connectFoot = document.querySelector(".connect-foot");
 
-contactFoot.addEventListener("click", () => {
-    window.scrollTo(0, 2700);
+connectFoot.addEventListener("click", () => {
+    window.scrollTo(0, 2620);
 })
 
 // Back to Top

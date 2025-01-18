@@ -58,7 +58,7 @@
                 <p class="mt-6 text-sm dark:text-[#fff] text-[#1f1f1f] sm:text-base">Aspiring and results-oriented Student with a strong desire to learn and grow in the tech industry. passion for innovative technology solutions and a solid foundation in programming, algorithms, and software development.</p>
 
                 <!-- Technologies Known -->
-                <ul class="flex gap-3 flex-wrap mt-6 dark:text-[#fff] text-[#333333]">
+                <ul class="flex gap-2 md:gap-3 flex-wrap mt-6 dark:text-[#fff] text-[#333333]">
                     <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-xs sm:text-sm">#java</li>
                     <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-xs sm:text-sm">#javascript</li>
                     <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-xs sm:text-sm">#dsa</li>
@@ -162,8 +162,8 @@
             </div>
 
             <!-- Close Button -->
-            <button type="button" title="close" class="close-btn dark:bg-[#353535] bg-[#dfdfdf] w-6 h-6 absolute flex justify-center items-center rounded-full p-2 right-4 md:right-10 top-4 md:top-8 hover:rotate-90 duration-200 ease-in-out hover:scale-105">
-                <svg class="dark:text-[#fff] text-[#111]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
+            <button type="button" title="close" class="close-btn bg-[#dfdfdf] dark:bg-[#353535] hover:bg-[#e81022] dark:hover:bg-[#e81022] w-6 h-6 absolute flex justify-center items-center rounded-full p-2 right-4 md:right-10 top-4 md:top-8 hover:rotate-90 duration-200 ease-in-out hover:scale-105 group">
+                <svg class="text-[#111] group-hover:text-[#fff] dark:text-[#fff]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
             </button>
         </div>
 
@@ -584,7 +584,7 @@
       <h2 class="text-2xl sm:text-4xl text-center relative z-10 font-bold px-4 py-2 w-max mx-auto mt-14 text-[#1788ae] dark:bg-[#111] bg-[#fff] border-2 rounded border-[#1788ae]">Let's Talk.</h2>
       <!-- <p class="text-[#1788ae] dark:text-gray-500 text-center mx-auto mt-5">New projects, freelance inquiry or even a coffee.</p> -->
 
-      <div class="flex flex-col lg:flex-row items-center mt-10">
+      <div class="max-w-[1300px] flex flex-col lg:flex-row items-center mt-10 mx-auto">
 
         <div class="w-full sm:min-w-[300px]">
           <img src="./assets/images/contact-me.svg" alt="content" class="w-full">
@@ -626,7 +626,7 @@
 
             
             <!-- <form class="max-w-md mx-auto"> -->
-              <p class="dark:text-[#1788ae] text-[#1788ae] mb-5 hover:text-[#fff] transition-all duration-300 ease-in-out">New projects, freelance inquiry or even a coffee.</p>
+              <p class="dark:text-[#1788ae] text-[#1788ae] mb-5 dark:hover:text-[#fff] transition-all duration-300 ease-in-out">New projects, freelance inquiry or even a coffee.</p>
 
               <div class="relative z-0 w-full mb-5 group">
                   <input type="text" name="name" id="name" class="block py-2.5 px-0 w-full text-sm bg-transparent border-0 border-b-2 appearance-none dark:text-white dark:border-gray-600 focus:border-[#1788ae] text-gray-900 dark:focus:border-[#1788ae] border-gray-300 focus:outline-none focus:ring-0 peer" placeholder=" " required />
@@ -638,7 +638,7 @@
               </div>
               <div class="relative z-0 w-full mb-5 group">
                   <input type="text" name="subject" id="subject" class="block py-2.5 px-0 w-full text-sm bg-transparent border-0 border-b-2 appearance-none dark:text-white dark:border-gray-600 focus:border-[#1788ae] text-gray-900 dark:focus:border-[#1788ae] border-gray-300 focus:outline-none focus:ring-0 peer" placeholder=" " required />
-                  <label for="subject" class="peer-focus:font-medium absolute text-sm text-gray-400 dark:text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto  peer-focus:text-[#1788ae] dark:peer-focus:text-[#1788ae] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Subject *</label>
+                  <label for="subject" class="peer-focus:font-medium absolute text-sm dark:text-gray-400 text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto  peer-focus:text-[#1788ae] dark:peer-focus:text-[#1788ae] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Subject *</label>
               </div>
 
               <div class="relative z-0 w-full mb-5 group">
@@ -692,18 +692,22 @@
               <span class="invisible group-hover:visible group-hover:flex bg-[#1788ae] absolute top-5 left-1/2 -translate-x-1/2 px-3 py-1 rounded w-max items-center gap-1 after:content-[''] after:w-3 after:h-3 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-1 group-hover:-top-9 ease-jump duration-200">Back to top
               </span>
 
-              <img src="./assets/images/C2-Logo-White.png" class="w-full" alt="Logo" />
+              <img src="./assets/images/C2-Logo-Color.png" class="w-full" alt="Logo" />
                 <!-- <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Chandan Chaudhary</span> -->
             </div>
-            <div class="flex flex-wrap items-center text-sm font-medium dark:text-gray-400 text-gray-500 gap-6 md:gap-4">
+            <div class="flex flex-wrap items-center text-sm font-medium dark:text-gray-400 text-gray-500 gap-6 md:gap-6">
                 
-                    <button type="button" class="about-foot hover:text-[#1595b6] border-b-2 dark:border-[#111] hover:border-[#1595b6] border-[#fff] dark:hover:border-[#1595b6] transition-all ease-linear duration-[400ms] delay-75">About</button>
+                    <button type="button" class="about-foot hover:text-[#1595b6] border-b-2 hover:border-[#1595b6] border-[#fff] dark:border-[#111] dark:hover:border-[#1595b6] transition-all ease-linear duration-[400ms] delay-75">About</button>
                 
-                    <button type="button" class="resume-foot hover:text-[#1595b6] border-b-2 dark:border-[#111] hover:border-[#1595b6] border-[#fff] dark:hover:border-[#1595b6] transition-all ease-linear duration-[400ms] delay-75">Resume</button>
+                    <button type="button" class="resume-foot hover:text-[#1595b6] border-b-2 hover:border-[#1595b6] border-[#fff] dark:border-[#111] dark:hover:border-[#1595b6] transition-all ease-linear duration-[400ms] delay-75">Resume</button>
                 
-                    <button type="button" class="project-foot hover:text-[#1595b6] border-b-2 dark:border-[#111] hover:border-[#1595b6] border-[#fff] dark:hover:border-[#1595b6] transition-all ease-linear duration-[400ms] delay-75">Projects</button>
+                    <button type="button" class="project-foot hover:text-[#1595b6] border-b-2 hover:border-[#1595b6] border-[#fff] dark:border-[#111] dark:hover:border-[#1595b6] transition-all ease-linear duration-[400ms] delay-75">Projects</button>
                 
-                    <button type="button" class="contact-foot hover:text-[#1595b6] border-b-2 dark:border-[#111] hover:border-[#1595b6] border-[#fff] dark:hover:border-[#1595b6] transition-all ease-linear duration-[400ms] delay-75">Contact</button>
+                    <button type="button" class="services-foot hover:text-[#1595b6] border-b-2 hover:border-[#1595b6] border-[#fff] dark:border-[#111] dark:hover:border-[#1595b6] transition-all ease-linear duration-[400ms] delay-75">Services</button>
+
+                    <button type="button" class="response-foot hover:text-[#1595b6] border-b-2 hover:border-[#1595b6] border-[#fff] dark:border-[#111] dark:hover:border-[#1595b6] transition-all ease-linear duration-[400ms] delay-75">Response</button>
+
+                    <button type="button" class="connect-foot hover:text-[#1595b6] border-b-2 hover:border-[#1595b6] border-[#fff] dark:border-[#111] dark:hover:border-[#1595b6] transition-all ease-linear duration-[400ms] delay-75">Connect</button>
                 
               </div>
         </div>
