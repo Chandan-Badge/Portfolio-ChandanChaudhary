@@ -40,3 +40,8 @@
     opacity: 1;
     pointer-events: all;
 }
+
+.coursor-dot, .coursor-outline {
+    transform: translate(-50%, -50%);
+
+}
