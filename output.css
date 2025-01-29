@@ -3834,6 +3834,11 @@ video {
   border-color: rgb(75 85 99 / var(--tw-border-opacity, 1));
 }
 
+.dark\:bg-\[\#0a0d14\]:is(.dark *) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(10 13 20 / var(--tw-bg-opacity, 1));
+}
+
 .dark\:bg-\[\#111\]:is(.dark *) {
   --tw-bg-opacity: 1;
   background-color: rgb(17 17 17 / var(--tw-bg-opacity, 1));
@@ -3879,21 +3884,8 @@ video {
   background-color: rgb(37 99 235 / var(--tw-bg-opacity, 1));
 }
 
-.dark\:bg-inherit:is(.dark *) {
-  background-color: inherit;
-}
-
-.dark\:bg-\[\#0a0d14\]:is(.dark *) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(10 13 20 / var(--tw-bg-opacity, 1));
-}
-
 .dark\:bg-gradient-to-l:is(.dark *) {
   background-image: linear-gradient(to left, var(--tw-gradient-stops));
-}
-
-.dark\:bg-none:is(.dark *) {
-  background-image: none;
 }
 
 .dark\:from-\[\#040917\]:is(.dark *) {

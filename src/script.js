@@ -178,6 +178,8 @@ const hiddenElementsR = document.querySelectorAll(".not-show-right");
 const hiddenElementsL = document.querySelectorAll(".not-show-left");
 const hiddenElementsRS = document.querySelectorAll(".not-show-right-special");
 const hiddenElementsLS = document.querySelectorAll(".not-show-left-special");
+const hiddenElementsRH = document.querySelectorAll(".not-show-right-high");
+const hiddenElementsLH = document.querySelectorAll(".not-show-left-high");
 
 hiddenElementsO.forEach((e1) => observer.observe(e1));
 hiddenElementsE.forEach((e1) => observer.observe(e1));
@@ -188,3 +190,5 @@ hiddenElementsR.forEach((e1) => observer.observe(e1));
 hiddenElementsL.forEach((e1) => observer.observe(e1));
 hiddenElementsRS.forEach((e1) => observer.observe(e1));
 hiddenElementsLS.forEach((e1) => observer.observe(e1));
+hiddenElementsRH.forEach((e1) => observer.observe(e1));
+hiddenElementsLH.forEach((e1) => observer.observe(e1));

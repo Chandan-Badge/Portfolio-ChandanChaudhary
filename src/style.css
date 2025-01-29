@@ -89,28 +89,42 @@
     opacity: 0;
     transition: all 1.5s;
     filter: blur(5px);
-    transform: translateX(-50%);
+    transform: translateX(-30%);
 }
 
 .not-show-right {
     opacity: 0;
     transition: all 1.5s;
     filter: blur(5px);
-    transform: translateX(50%);
+    transform: translateX(30%);
 }
 
 .not-show-left-special {
     opacity: 0;
     transition: all 1.5s;
     filter: blur(5px);
-    transform: translateX(-20%);
+    transform: translateX(-15%);
 }
 
 .not-show-right-special {
     opacity: 0;
     transition: all 1.5s;
     filter: blur(5px);
-    transform: translateX(20%);
+    transform: translateX(15%);
+}
+
+.not-show-left-high {
+    opacity: 0;
+    transition: all 1.5s;
+    filter: blur(5px);
+    transform: translateX(-50%);
+}
+
+.not-show-right-high {
+    opacity: 0;
+    transition: all 1.5s;
+    filter: blur(5px);
+    transform: translateX(50%);
 }
 
 .show {
