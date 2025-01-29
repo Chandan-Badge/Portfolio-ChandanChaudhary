@@ -2321,11 +2321,6 @@ video {
   background-color: rgb(17 17 17 / var(--tw-bg-opacity, 1));
 }
 
-.bg-\[\#1595b6\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(21 149 182 / var(--tw-bg-opacity, 1));
-}
-
 .bg-\[\#1788ae\] {
   --tw-bg-opacity: 1;
   background-color: rgb(23 136 174 / var(--tw-bg-opacity, 1));
@@ -2401,6 +2396,11 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[red\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 0 0 / var(--tw-bg-opacity, 1));
+}
+
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 0 0 / var(--tw-bg-opacity, 1));
@@ -2418,6 +2418,16 @@ video {
 
 .bg-transparent {
   background-color: transparent;
+}
+
+.bg-red-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 165 165 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#1595b6\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(21 149 182 / var(--tw-bg-opacity, 1));
 }
 
 .bg-gradient-to-l {
@@ -4160,11 +4170,6 @@ video {
   .sm\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-  }
-
-  .sm\:py-12 {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
   }
 
   .sm\:py-4 {
