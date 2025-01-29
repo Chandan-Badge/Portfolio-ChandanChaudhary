@@ -2321,6 +2321,11 @@ video {
   background-color: rgb(17 17 17 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\#1595b6\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(21 149 182 / var(--tw-bg-opacity, 1));
+}
+
 .bg-\[\#1788ae\] {
   --tw-bg-opacity: 1;
   background-color: rgb(23 136 174 / var(--tw-bg-opacity, 1));
@@ -2396,11 +2401,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.bg-\[red\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 0 0 / var(--tw-bg-opacity, 1));
-}
-
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 0 0 / var(--tw-bg-opacity, 1));
@@ -2418,16 +2418,6 @@ video {
 
 .bg-transparent {
   background-color: transparent;
-}
-
-.bg-red-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(252 165 165 / var(--tw-bg-opacity, 1));
-}
-
-.bg-\[\#1595b6\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(21 149 182 / var(--tw-bg-opacity, 1));
 }
 
 .bg-gradient-to-l {
@@ -3889,8 +3879,21 @@ video {
   background-color: rgb(37 99 235 / var(--tw-bg-opacity, 1));
 }
 
+.dark\:bg-inherit:is(.dark *) {
+  background-color: inherit;
+}
+
+.dark\:bg-\[\#0a0d14\]:is(.dark *) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(10 13 20 / var(--tw-bg-opacity, 1));
+}
+
 .dark\:bg-gradient-to-l:is(.dark *) {
   background-image: linear-gradient(to left, var(--tw-gradient-stops));
+}
+
+.dark\:bg-none:is(.dark *) {
+  background-image: none;
 }
 
 .dark\:from-\[\#040917\]:is(.dark *) {
