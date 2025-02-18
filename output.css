@@ -739,34 +739,6 @@ video {
   top: 1.25rem;
 }
 
-.top-8 {
-  top: 2rem;
-}
-
-.top-16 {
-  top: 4rem;
-}
-
-.top-12 {
-  top: 3rem;
-}
-
-.top-24 {
-  top: 6rem;
-}
-
-.top-20 {
-  top: 5rem;
-}
-
-.top-\[68px\] {
-  top: 68px;
-}
-
-.top-\[70px\] {
-  top: 70px;
-}
-
 .top-\[72px\] {
   top: 72px;
 }
@@ -1157,14 +1129,6 @@ video {
 .w-max {
   width: -moz-max-content;
   width: max-content;
-}
-
-.w-\[4px\] {
-  width: 4px;
-}
-
-.w-\[3px\] {
-  width: 3px;
 }
 
 .max-w-72 {
