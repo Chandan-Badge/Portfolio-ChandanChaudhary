@@ -178,6 +178,7 @@ const observer = new IntersectionObserver((entries) => {
 const hiddenElementsO = document.querySelectorAll(".not-show-odd");
 const hiddenElementsE = document.querySelectorAll(".not-show-even");
 const hiddenElementsP = document.querySelectorAll(".not-show-pop");
+const hiddenElementsPs = document.querySelectorAll(".not-show-pop-slow");
 const hiddenElementsT = document.querySelectorAll(".not-show-top");
 const hiddenElementsB = document.querySelectorAll(".not-show-bottom");
 const hiddenElementsR = document.querySelectorAll(".not-show-right");
@@ -190,6 +191,7 @@ const hiddenElementsLH = document.querySelectorAll(".not-show-left-high");
 hiddenElementsO.forEach((e1) => observer.observe(e1));
 hiddenElementsE.forEach((e1) => observer.observe(e1));
 hiddenElementsP.forEach((e1) => observer.observe(e1));
+hiddenElementsPs.forEach((e1) => observer.observe(e1));
 hiddenElementsT.forEach((e1) => observer.observe(e1));
 hiddenElementsB.forEach((e1) => observer.observe(e1));
 hiddenElementsR.forEach((e1) => observer.observe(e1));
