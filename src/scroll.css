@@ -1,95 +1,92 @@
 /* Scroll Animation */
 
-/* @media (min-width: 768px) { */
-    .not-show-odd {
-        opacity: 0;
-        transition: all 1.5s;
-        filter: blur(5px);
-        transform: translateX(-50%);
-    }
-    
-    .not-show-even {
-        opacity: 0;
-        transition: all 1.5s;
-        filter: blur(5px);
-        transform: translateX(50%);
-    }
-    
-    .not-show-pop {
-        opacity: 0;
-        transition: all 0.5s;
-        filter: blur(5px);
-        transform: translateX(-50%);
-        
-        transform: scale(0.4);
-    }
-    
-    .not-show-pop-slow {
-        opacity: 0;
-        transition: all 1.5s;
-        filter: blur(5px);
-        transform: translateX(-50%);
-        
-        transform: scale(0.4);
-    }
-    
-    .not-show-top {
-        opacity: 0;
-        transition: all 1.5s;
-        filter: blur(5px);
-        transform: translateY(-200%);
-    }
-    
-    .not-show-bottom {
-        opacity: 0;
-        transition: all 1s;
-        filter: blur(5px);
-        transform: translateY(200%);
-    }
-    
-    .not-show-left {
-        opacity: 0;
-        transition: all 1.5s;
-        filter: blur(5px);
-        transform: translateX(-30%);
-    }
-    
-    .not-show-right {
-        opacity: 0;
-        transition: all 1.5s;
-        filter: blur(5px);
-        transform: translateX(30%);
-    }
-    
-    .not-show-left-special {
-        opacity: 0;
-        transition: all 1.5s;
-        filter: blur(5px);
-        transform: translateX(-15%);
-    }
-    
-    .not-show-right-special {
-        opacity: 0;
-        transition: all 1.5s;
-        filter: blur(5px);
-        transform: translateX(15%);
-    }
+.not-show-odd {
+    opacity: 0;
+    transition: all 1.5s;
+    filter: blur(5px);
+    transform: translateX(-50%);
+}
 
-    .not-show-left-high {
-        opacity: 0;
-        transition: all 1.5s;
-        filter: blur(5px);
-        transform: translateX(-50%);
-    }
+.not-show-even {
+    opacity: 0;
+    transition: all 1.5s;
+    filter: blur(5px);
+    transform: translateX(50%);
+}
+
+.not-show-pop {
+    opacity: 0;
+    transition: all 0.5s;
+    filter: blur(5px);
+    transform: translateX(-50%);
     
-    .not-show-right-high {
-        opacity: 0;
-        transition: all 1.5s;
-        filter: blur(5px);
-        transform: translateX(50%);
-    }
+    transform: scale(0.4);
+}
+
+.not-show-pop-slow {
+    opacity: 0;
+    transition: all 1.5s;
+    filter: blur(5px);
+    transform: translateX(-50%);
     
-/* } */
+    transform: scale(0.4);
+}
+
+.not-show-top {
+    opacity: 0;
+    transition: all 1.5s;
+    filter: blur(5px);
+    transform: translateY(-200%);
+}
+
+.not-show-bottom {
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(5px);
+    transform: translateY(200%);
+}
+
+.not-show-left {
+    opacity: 0;
+    transition: all 1.5s;
+    filter: blur(5px);
+    transform: translateX(-30%);
+}
+
+.not-show-right {
+    opacity: 0;
+    transition: all 1.5s;
+    filter: blur(5px);
+    transform: translateX(30%);
+}
+
+.not-show-left-special {
+    opacity: 0;
+    transition: all 1.5s;
+    filter: blur(5px);
+    transform: translateX(-15%);
+}
+
+.not-show-right-special {
+    opacity: 0;
+    transition: all 1.5s;
+    filter: blur(5px);
+    transform: translateX(15%);
+}
+
+.not-show-left-high {
+    opacity: 0;
+    transition: all 1.5s;
+    filter: blur(5px);
+    transform: translateX(-50%);
+}
+
+.not-show-right-high {
+    opacity: 0;
+    transition: all 1.5s;
+    filter: blur(5px);
+    transform: translateX(50%);
+}
 
 @media (min-width: 992px) {
     
