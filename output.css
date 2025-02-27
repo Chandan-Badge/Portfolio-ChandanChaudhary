@@ -3838,6 +3838,11 @@ video {
   background-color: rgb(31 41 55 / var(--tw-bg-opacity, 1));
 }
 
+.dark\:bg-\[\#112130\]:is(.dark *) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 33 48 / var(--tw-bg-opacity, 1));
+}
+
 .dark\:bg-gradient-to-l:is(.dark *) {
   background-image: linear-gradient(to left, var(--tw-gradient-stops));
 }
