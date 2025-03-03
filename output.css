@@ -1090,6 +1090,10 @@ video {
   width: 2.25rem;
 }
 
+.w-\[100\%\] {
+  width: 100%;
+}
+
 .w-\[260px\] {
   width: 260px;
 }
@@ -1131,18 +1135,6 @@ video {
   width: max-content;
 }
 
-.w-\[90\%\] {
-  width: 90%;
-}
-
-.w-\[85\%\] {
-  width: 85%;
-}
-
-.w-\[100\%\] {
-  width: 100%;
-}
-
 .max-w-72 {
   max-width: 18rem;
 }
@@ -1177,10 +1169,6 @@ video {
 
 .max-w-screen-xl {
   max-width: 1280px;
-}
-
-.max-w-\[500px\] {
-  max-width: 500px;
 }
 
 .flex-shrink {
