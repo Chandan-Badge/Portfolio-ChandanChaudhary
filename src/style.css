@@ -2,6 +2,11 @@
     /* scroll-behavior: smooth; */
 }
 
+html {
+    scrollbar-width: thin;
+    scrollbar-color: #0f6dbf transparent;
+}
+
 #wrapper-canvas canvas {
     max-width: 100%;
 }
