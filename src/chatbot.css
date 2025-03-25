@@ -18,10 +18,6 @@
     flex-direction: column;
 }
 
-.bot-message {
-    
-}
-
 .chat-body .bot-message .thinking-indicator .dot {
     animation: dotPulse 1.8s ease-in-out infinite;
     opacity: 0.7;
@@ -53,4 +49,43 @@
         opacity: 0.2;
         /* transform: translateY(-4px); */
     }
+}
+
+/* cancel uploaded image */
+.chat-form .file-upload-wrapper :where(img, button) {
+    position: absolute;
+}
+
+#file-cancel {
+    position: absolute;
+}
+
+.uploaded-img {
+    display: none;
+}
+
+.chat-form .file-upload-wrapper :where(img, #file-cancel),
+.file-uploaded #file-upload {
+    display: none;
+}
+
+.file-uploaded .uploaded-img,
+.chat-form .file-upload-wrapper.file-uploaded:hover #file-cancel {
+    display: block;
+}
+
+em-emoji-picker {
+    position: absolute;
+    left: 50%;
+    top: -337px;
+    width: 100%;
+    max-width: 350px;
+    max-height: 330px;
+    transform: translateX(-50%);
+
+    visibility: hidden;
+}
+
+body.show-emoji-picker em-emoji-picker {
+    visibility: visible;
 }
