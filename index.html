@@ -813,18 +813,94 @@
     </button>
 
     <!-- Chat with me -->
-     <div class="flex items-center fixed bottom-4 right-5 gap-4 group z-20">
+     <!-- <div class="flex items-center fixed bottom-4 right-5 gap-4 group z-20"> -->
       <!-- <div class="bg-[#fff] text-sm sm:text-base text-gray-500 dark:text-gray-600 px-3 py-2 rounded-tr-xl rounded-tl-xl rounded-bl-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-500 ease-in-out scale-0 group-hover:scale-100 shadow-[0_0px_10px_0.1px_rgb(21,149,182)]">Chat with us</div> -->
-      <button class="h-16 w-16 rounded-full border-2 border-[#0f6dbf] relative flex items-center">
+      <!-- <button class="h-16 w-16 rounded-full border-2 border-[#0f6dbf] relative flex items-center">
         <div class="w-max absolute group-hover:flex bg-[#fff] text-sm sm:text-base dark:text-gray-500 text-gray-600 px-3 py-[6px] rounded-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-500 ease-in-out right-0 group-hover:right-20 after:content-[''] after:w-3 after:h-3 after:bg-[#fff] after:rotate-45 after:absolute after:top-1/2 after:-translate-y-1/2 after:-right-[5px] shadow-[0_0_20px_rgba(0,0,0,0.3)] after:shadow-[20px_0_20px_rgba(0,0,0,0.3)] dark:drop-shadow-[0_0px_20px_rgba(59,130,246,0.3)] after:dark:drop-shadow-[0_0px_20px_rgba(59,130,246,0.3)]">Chat with me</div>
         <img src="/assets/images/Chandan_Logo_white.jpg" alt="logo" class="w-full rounded-full">
       </button>
-     </div>
+     </div> -->
+
+        <!-- Chatbot Button -->
+        <button class="chatbot-toggler fixed flex justify-center items-center bottom-5 sm:bottom-6 right-5 sm:right-9 border-0 h-12 w-12 cursor-pointer rounded-full bg-[#5350c4] transition-all duration-200 ease-in-out">
+          <span class="material-symbols-outlined absolute text-[#fff]">mode_comment</span>
+          <span class="material-symbols-outlined absolute text-[#fff]">close</span>
+        </button>
+
+
+        <!-- Chatbot -->
+        <div class="chatbot-popup fixed right-0 sm:right-9 bottom-0 sm:bottom-20 opacity-0 pointer-events-none w-full sm:w-[420px] h-full sm:h-max bg-white overflow-hidden rounded-none sm:rounded-lg shadow-lg transition-all duration-100 ease-in-out">
+
+            <!-- Chatbot Header -->
+            <div class="chat-header flex items-center justify-between bg-[#5350c4] py-3 sm:py-3 px-4 sm:px-6">
+                <div class="header-info flex gap-3 items-center">
+                    <!-- <svg className="chatbot-logo w-9 h-9 p-[6px] fill-[#5350c4] bg-white flex-shrink-0 rounded-full" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#fff" viewBox="0 0 1024 1024"><path d="M738.3 287.6H285.7c-59 0-106.8 47.8-106.8 106.8v303.1c0 59 47.8 106.8 106.8 106.8h81.5v111.1c0 .7.8 1.1 1.4.7l166.9-110.6 41.8-.8h117.4l43.6-.4c59 0 106.8-47.8 106.8-106.8V394.5c0-59-47.8-106.9-106.8-106.9zM351.7 448.2c0-29.5 23.9-53.5 53.5-53.5s53.5 23.9 53.5 53.5-23.9 53.5-53.5 53.5-53.5-23.9-53.5-53.5zm157.9 267.1c-67.8 0-123.8-47.5-132.3-109h264.6c-8.6 61.5-64.5 109-132.3 109zm110-213.7c-29.5 0-53.5-23.9-53.5-53.5s23.9-53.5 53.5-53.5 53.5 23.9 53.5 53.5-23.9 53.5-53.5 53.5zM867.2 644.5V453.1h26.5c19.4 0 35.1 15.7 35.1 35.1v121.1c0 19.4-15.7 35.1-35.1 35.1h-26.5zM95.2 609.4V488.2c0-19.4 15.7-35.1 35.1-35.1h26.5v191.3h-26.5c-19.4 0-35.1-15.7-35.1-35.1zM561.5 149.6c0 23.4-15.6 43.3-36.9 49.7v44.9h-30v-44.9c-21.4-6.5-36.9-26.3-36.9-49.7 0-28.6 23.3-51.9 51.9-51.9s51.9 23.3 51.9 51.9z" /></svg> -->
+                    <img src="./src/assets/botface.svg" alt="bot" class="chatbot-logo w-9 h-9 p-[6px] fill-[#5350c4] bg-white flex-shrink-0 rounded-full">
+                    <h2 class="logo-text text-white text-[1.31rem] font-bold">AI Chatbot</h2>
+                    
+                </div>
+                
+                <button class="material-symbols-outlined close-chatbot border-none text-white h-10 w-10 text-[1.9rem] -mr-[10px] cursor-pointer rounded-full hover:bg-[#3d39ac] transition-all duration-200 ease-in-out ">
+                    keyboard_arrow_down
+                </button>
+            </div>
+
+            <!-- Chatbot body -->
+            <div class="chat-body py-6 sm:py-6 px-4 sm:px-5 flex gap-5 h-[460px] overflow-y-auto flex-col mb-20">
+                <!-- Already written bot message -->
+                <div class="message bot-message flex gap-3 items-center">
+                    <!-- <svg className="bot-avatar h-5 w-9 p-2 fill-[#fff] bg-[#6d4fc2] flex-shrink-0 rounded-full self-end" fill="#ff0000" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 1024 1024"><path d="M738.3 287.6H285.7c-59 0-106.8 47.8-106.8 106.8v303.1c0 59 47.8 106.8 106.8 106.8h81.5v111.1c0 .7.8 1.1 1.4.7l166.9-110.6 41.8-.8h117.4l43.6-.4c59 0 106.8-47.8 106.8-106.8V394.5c0-59-47.8-106.9-106.8-106.9zM351.7 448.2c0-29.5 23.9-53.5 53.5-53.5s53.5 23.9 53.5 53.5-23.9 53.5-53.5 53.5-53.5-23.9-53.5-53.5zm157.9 267.1c-67.8 0-123.8-47.5-132.3-109h264.6c-8.6 61.5-64.5 109-132.3 109zm110-213.7c-29.5 0-53.5-23.9-53.5-53.5s23.9-53.5 53.5-53.5 53.5 23.9 53.5 53.5-23.9 53.5-53.5 53.5zM867.2 644.5V453.1h26.5c19.4 0 35.1 15.7 35.1 35.1v121.1c0 19.4-15.7 35.1-35.1 35.1h-26.5zM95.2 609.4V488.2c0-19.4 15.7-35.1 35.1-35.1h26.5v191.3h-26.5c-19.4 0-35.1-15.7-35.1-35.1zM561.5 149.6c0 23.4-15.6 43.3-36.9 49.7v44.9h-30v-44.9c-21.4-6.5-36.9-26.3-36.9-49.7 0-28.6 23.3-51.9 51.9-51.9s51.9 23.3 51.9 51.9z" /></svg> -->
+                    <img src="./src/assets/botavatar.svg" alt="bot" class="bot-avatar w-9 h-9 p-[6px] fill-white bg-[#5350c4] flex-shrink-0 rounded-full self-end mb-[2px]">
+                    <div class="message-text py-2 px-4 max-w-[75%] text-[0.95rem] bg-[#f2f2ff] rounded-r-xl rounded-tl-xl">Hey there 👋 <br/> How can I help you today?</div>
+                </div>
+
+                <!-- user message -->
+                <!-- <div class="message user-message flex gap-3 items-end flex-col">
+                    <div class="message-text py-2 px-4 max-w-[75%] text-[0.95rem] text-white bg-[#5350c4] rounded-l-xl rounded-tr-xl">Lorem ipsum dolor sit amet consectetur.</div>
+                </div> -->
+
+                <!-- generated message -->
+                <!-- <div class="message bot-message flex gap-3 items-center">
+                    <img src="./src/assets/botavatar.svg" alt="bot" class="bot-avatar w-9 h-9 p-[6px] fill-white bg-[#5350c4] flex-shrink-0 rounded-full self-end mb-[2px]">
+                    
+                    <div class="message-text py-2 px-3 max-w-[75%] text-[0.95rem] bg-[#f2f2ff] rounded-r-xl rounded-tl-xl">
+                        
+                        <div class="thinking-indicator flex gap-1 py-2 px-4">
+                            <div class="dot h-2 w-2 rounded-full bg-[#6f6bc2]"></div>
+                            <div class="dot h-2 w-2 rounded-full bg-[#6f6bc2]"></div>
+                            <div class="dot h-2 w-2 rounded-full bg-[#6f6bc2]"></div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+
+            <!-- Chat footer -->
+            <div class="chat-footer absolute bottom-0 w-full bg-white px-4 sm:px-6 pb-4 sm:pb-5 pt-3 sm:pt-4 flex">
+                <form action="#" class="chat-form relative w-full flex items-center bg-[#fff] outline-[1px] outline-dashed outline-[#cccce5] rounded-2xl drop-shadow-lg focus-within:outline-[2px] focus-within:outline-[#6d4fc2] focus-within:outline-double">
+
+                    <input type="text" placeholder="Message..." class="message-input border-none outline-none h-12 w-full px-4 text-[16px] rounded-2xl" required>
+                    
+                    <div class="chat-controls flex h-12 items-center pr-[6px] self-end gap-1">
+                        <button type="button" id="emoji-picker" class="material-symbols-outlined h-9 w-9 border-none cursor-pointer text-[#706db0] bg-none hover:bg-[#f1f1ff] rounded-full text-[1.15rem] transition-all delay-150 ease-in-out">sentiment_satisfied</button>
+                        
+                        <div class="file-upload-wrapper w-9 h-9 relative">
+                            <input type="file" accept="image/*" id="file-input" hidden>
+                            <img src="#" class="uploaded-img w-full h-full object-cover rounded-full">
+                            <button type="button" id="file-upload" class="material-symbols-outlined h-9 w-9 border-none cursor-pointer text-[#706db0] bg-none hover:bg-[#f1f1ff] rounded-full text-[1.15rem] transition-all delay-150 ease-in-out">attach_file</button>
+                            <button type="button" id="file-cancel" class="material-symbols-outlined text-red-500 bg-[#f1f1ff] w-9 h-9 rounded-full opacity-0 sm:opacity-100">close</button>
+                        </div>
+                        <button type="submit" class="material-symbols-outlined send-message h-9 w-9 border-none cursor-pointer text-[#fff] bg-[#5350c4] hover:bg-[#3d39ac] rounded-full text-[1.15rem] transition-all delay-100 ease-in-out">arrow_upward</button>
+                    </div>
+                </form>
+            </div>
+        </div>
 
         <!-- <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script> -->
         <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.12.0/matter.min.js"></script>
         <script src="https://cdn/jsdelivr.net/npm/matter-wrap@0.2.0/build/matter-wrap.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/matter-attractors@0.1.6/build/matter-attractors.min.js"></script> -->
  
+        <!-- Linking Emoji Mart script for rmoji picker -->
+        <script src="https://cdn.jsdelivr.net/npm/emoji-mart@latest/dist/browser.js"></script>
 </body>
 </html>
