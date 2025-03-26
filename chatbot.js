@@ -7,6 +7,8 @@ const fileCancelButton = document.querySelector("#file-cancel");
 const chatBotToggler = document.querySelector(".chatbot-toggler");
 const closeChatbot = document.querySelector(".close-chatbot");
 
+const chatbotPopup = document.querySelector(".chatbot-popup");
+
 // API setup
 const API_KEY = "AIzaSyARrus7KKPz9xd5gZiln5a9wiThXg3YLKw";
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
@@ -99,7 +101,7 @@ const handleOutgoingMessage = (e) => {
 
     // Simulate bot response with thinking indicator after a delay
     setTimeout(() => {
-        const messageContent = `<div class="message bot-message flex gap-3 items-center">
+        const messageContent = `<div class="message bot-message text-black flex gap-3 items-center">
                 <img src="./assets/bot-icons/botavatar.svg" alt="bot" class="bot-avatar w-9 h-9 p-[6px] fill-white bg-[#5350c4] flex-shrink-0 rounded-full self-end mb-[2px]">
                 
                 <div class="message-text py-2 px-3 max-w-[75%] text-[0.95rem] bg-[#f2f2ff] rounded-r-xl rounded-tl-xl">

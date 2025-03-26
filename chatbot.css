@@ -89,3 +89,28 @@ em-emoji-picker {
 body.show-emoji-picker em-emoji-picker {
     visibility: visible;
 }
+
+/* Show chatbot */
+.chatbot-popup {
+    transform: scale(0.2);
+    transform-origin: bottom right;
+}
+
+body.show-chatbot .chatbot-popup {
+    opacity: 1;
+    pointer-events: auto;
+    transform: scale(1);
+}
+
+body.show-chatbot .chatbot-toggler {
+    transform: rotate(90deg);
+}
+
+body.show-chatbot .chatbot-toggler span:first-child,
+.chatbot-toggler span:last-child {
+    opacity: 0;
+}
+
+body.show-chatbot .chatbot-toggler span:last-child {
+    opacity: 1;
+}
