@@ -100,7 +100,7 @@ const handleOutgoingMessage = (e) => {
     // Simulate bot response with thinking indicator after a delay
     setTimeout(() => {
         const messageContent = `<div class="message bot-message flex gap-3 items-center">
-                <img src="./src/assets/botavatar.svg" alt="bot" class="bot-avatar w-9 h-9 p-[6px] fill-white bg-[#5350c4] flex-shrink-0 rounded-full self-end mb-[2px]">
+                <img src="./assets/bot-icons/botavatar.svg" alt="bot" class="bot-avatar w-9 h-9 p-[6px] fill-white bg-[#5350c4] flex-shrink-0 rounded-full self-end mb-[2px]">
                 
                 <div class="message-text py-2 px-3 max-w-[75%] text-[0.95rem] bg-[#f2f2ff] rounded-r-xl rounded-tl-xl">
                     <!-- Thinking message -->

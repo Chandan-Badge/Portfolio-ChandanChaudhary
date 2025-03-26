@@ -3251,6 +3251,10 @@ video {
   opacity: 0.9;
 }
 
+.opacity-100 {
+  opacity: 1;
+}
+
 .bg-blend-normal {
   background-blend-mode: normal;
 }
