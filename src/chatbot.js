@@ -107,9 +107,9 @@ const handleOutgoingMessage = (e) => {
                 <div class="message-text py-2 px-3 max-w-[75%] text-[0.95rem] bg-[#f2f2ff] rounded-r-xl rounded-tl-xl">
                     <!-- Thinking message -->
                     <div class="thinking-indicator flex gap-1 py-2 px-4">
-                        <div class="dot h-2 w-2 rounded-full bg-[#6f6bc2]"></div>
-                        <div class="dot h-2 w-2 rounded-full bg-[#6f6bc2]"></div>
-                        <div class="dot h-2 w-2 rounded-full bg-[#6f6bc2]"></div>
+                        <div class="dot h-2 w-2 rounded-full bg-[#0f84bf]"></div>
+                        <div class="dot h-2 w-2 rounded-full bg-[#0f84bf]"></div>
+                        <div class="dot h-2 w-2 rounded-full bg-[#0f84bf]"></div>
                     </div>
                 </div>
             </div>`;
