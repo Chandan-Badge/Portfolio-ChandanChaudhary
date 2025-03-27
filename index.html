@@ -43,7 +43,7 @@
             <!-- Right-navbar -->
             <div class="not-show-top flex gap-4 sm:gap-6 items-center pointer-events-auto">
               <a href="https://drive.google.com/file/d/1JwvzMMMnfaVjcqLk1Ei8RnqDI8pG4pTk/view?usp=sharing" target="_blank">
-                <button class="px-2 md:px-5 py-2 rounded font-[nunito] font-extrabold text-xs sm:text-base bg-[#0f6dbf] relative hover:bg-white hover:text-[#0f6dbf] ease-in-out duration-300 hover:shadow-[0_0px_15px_2px_rgb(21,149,182)]">Download CV</button>
+                <button class="px-2 md:px-5 py-2 rounded font-semibold text-xs sm:text-base bg-gradient-to-l from-[#0f6dbf] to-[#03045e] relative hover:bg-[#fff] hover:text-[#fff] transition-all ease-in-out duration-300 hover:shadow-[0_0px_15px_2px_rgb(21,149,182)]">Download CV</button>
               </a>
               <button class="dark-btn hidden w-5 sm:w-6 h-5 sm:h-6">
                 <svg xmlns="http://www.w3.org/2000/svg" class="feather feather-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
@@ -65,9 +65,9 @@
         </header>
 
          <!-- Animation -->
-         <div class="absolute inset-0 hidden md:block" id="wrapper-canvas">
+        <div class="absolute inset-0 hidden md:block" id="wrapper-canvas">
           <!-- <canvas></canvas> -->
-      </div>
+        </div>
 
         <!-- About me Popup -->
            <div class="container max-w-[1250px] max-h-[95%] w-[90vw] fixed z-20 left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 text-white dark:bg-[#191919] bg-[#f7f8fa] rounded-lg px-8 sm:px-16 py-8 md:py-12 flex flex-col md:flex-row justify-center gap-6 transition-all duration-75 ease-in-out shadow-[0_0_20px_rgba(0,0,0,0.3)]">
@@ -312,7 +312,7 @@
         <!-- Bottom Button of 1st Section -->
         <div class="relative after:content-[''] after:absolute after:w-[2px] after:h-[20px] after:bg-[#444] self-center after:left-1/2 after:-translate-x-1/2 after:top-[100px]">
 
-            <button class="not-show-pop-slow drag-btn font-[nunito] bg-[#ff0055] px-5 py-2 rounded font-extrabold bg-gradient-to-l from-[#f56192] to-[#ff0055] relative hover:scale-110 ease-in-out duration-100 group self-center mb-20">
+            <button class="not-show-pop-slow drag-btn bg-[#03045e] px-6 py-2 rounded font-semibold bg-gradient-to-l from-[#0f6dbf] to-[#03045e] relative hover:scale-110 ease-in-out duration-100 group self-center mb-20">
                 Latest Work
     
                 <svg class="absolute rotate-90 left-1/2 -translate-x-1/2 top-11 group-hover:top-12 ease-in-out duration-100" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" x="0px" y="0px" width="44" height="44" viewBox="0 0 100 100"><g transform="translate(0,-952.36218)"><path style="text-indent:0;text-transform:none;direction:ltr;block-progression:tb;baseline-shift:baseline;color:#000000;enable-background:accumulate;" d="m 88.999835,1002.3621 c 0,-0.4628 -0.2799,-1.0773 -0.5639,-1.3755 l -15.9997,-17.00026 c -0.747,-0.7723 -1.9572,-0.8618 -2.8281,-0.078 -0.7786,0.7007 -0.798,2.0673 -0.078,2.8282 l 12.8435,13.62516 -69.37347,0 c -1.1046,0 -2,0.8954 -2,2 0,1.1046 0.8954,2.0001 2,2.0001 l 69.37347,0 -12.8435,13.6252 c -0.7199,0.7608 -0.6688,2.0938 0.078,2.8281 0.7885,0.7752 2.0925,0.7062 2.8281,-0.078 l 15.9997,-17.0002 c 0.4701,-0.4611 0.556,-0.9052 0.5639,-1.3748 z" fill="#fff" fill-opacity="1" stroke="white" stroke-width="2"  marker="none" visibility="visible" display="inline" overflow="visible"/></g></svg>
@@ -849,7 +849,7 @@
             </div>
 
             <!-- Chatbot body -->
-            <div class="chat-body py-6 sm:py-6 px-4 sm:px-5 flex gap-5 h-[400px] bg-[#fff] dark:bg-gray-800 overflow-y-auto flex-col mb-20">
+            <div class="chat-body py-6 sm:py-6 px-4 sm:px-5 flex gap-5 h-full sm:h-[400px] bg-[#fff] dark:bg-gray-800 overflow-y-auto flex-col mb-20">
                 <!-- Already written bot message -->
                 <div class="message bot-message flex gap-3 items-center">
                     <!-- <svg className="bot-avatar h-5 w-9 p-2 fill-[#fff] bg-[#6d4fc2] flex-shrink-0 rounded-full self-end" fill="#ff0000" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 1024 1024"><path d="M738.3 287.6H285.7c-59 0-106.8 47.8-106.8 106.8v303.1c0 59 47.8 106.8 106.8 106.8h81.5v111.1c0 .7.8 1.1 1.4.7l166.9-110.6 41.8-.8h117.4l43.6-.4c59 0 106.8-47.8 106.8-106.8V394.5c0-59-47.8-106.9-106.8-106.9zM351.7 448.2c0-29.5 23.9-53.5 53.5-53.5s53.5 23.9 53.5 53.5-23.9 53.5-53.5 53.5-53.5-23.9-53.5-53.5zm157.9 267.1c-67.8 0-123.8-47.5-132.3-109h264.6c-8.6 61.5-64.5 109-132.3 109zm110-213.7c-29.5 0-53.5-23.9-53.5-53.5s23.9-53.5 53.5-53.5 53.5 23.9 53.5 53.5-23.9 53.5-53.5 53.5zM867.2 644.5V453.1h26.5c19.4 0 35.1 15.7 35.1 35.1v121.1c0 19.4-15.7 35.1-35.1 35.1h-26.5zM95.2 609.4V488.2c0-19.4 15.7-35.1 35.1-35.1h26.5v191.3h-26.5c-19.4 0-35.1-15.7-35.1-35.1zM561.5 149.6c0 23.4-15.6 43.3-36.9 49.7v44.9h-30v-44.9c-21.4-6.5-36.9-26.3-36.9-49.7 0-28.6 23.3-51.9 51.9-51.9s51.9 23.3 51.9 51.9z" /></svg> -->
