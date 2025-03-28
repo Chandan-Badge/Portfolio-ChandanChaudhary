@@ -140,7 +140,7 @@ window.addEventListener("scroll", () => {
     }
 })
 
-// Curtom Cursor
+// Custom Cursor
 const cursor = document.querySelector(".coursor");
 const cursorDot = document.querySelector(".coursor-dot");
 const cursorOutline = document.querySelector(".coursor-outline");
