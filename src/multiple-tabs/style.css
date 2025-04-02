@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+.tab-box .tab-btn.active {
+    background-color: #040836;
+    color: #fff;
+}
+
+.content-box .content {
+    display: none;
+    animation: moving .5s ease;
+}
+
+@keyframes moving {
+    from{
+        transform: translateX(50px); 
+        opacity: 0;
+    }
+
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.content-box .content.active {
+    display: flex;
+}
