@@ -4281,6 +4281,11 @@ video {
   background-color: rgb(25 25 25 / var(--tw-bg-opacity, 1));
 }
 
+.dark\:bg-\[\#222\]:is(.dark *) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 34 34 / var(--tw-bg-opacity, 1));
+}
+
 .dark\:bg-\[\#353535\]:is(.dark *) {
   --tw-bg-opacity: 1;
   background-color: rgb(53 53 53 / var(--tw-bg-opacity, 1));
@@ -4314,16 +4319,6 @@ video {
 .dark\:bg-red-600:is(.dark *) {
   --tw-bg-opacity: 1;
   background-color: rgb(220 38 38 / var(--tw-bg-opacity, 1));
-}
-
-.dark\:bg-\[\#222\]:is(.dark *) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(34 34 34 / var(--tw-bg-opacity, 1));
-}
-
-.dark\:bg-\[\#333\]:is(.dark *) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(51 51 51 / var(--tw-bg-opacity, 1));
 }
 
 .dark\:bg-gradient-to-l:is(.dark *) {
@@ -4397,6 +4392,10 @@ video {
 .dark\:text-white:is(.dark *) {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.dark\:text-\[\#\#0f6dbf\]:is(.dark *) {
+  color: ##0f6dbf;
 }
 
 .dark\:drop-shadow-\[0_0px_20px_rgba\(59\2c 130\2c 246\2c 0\.3\)\]:is(.dark *) {
