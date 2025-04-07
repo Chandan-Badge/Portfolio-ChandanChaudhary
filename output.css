@@ -4102,6 +4102,24 @@ video {
   text-align: center;
 }
 
+.active\:scale-95:active {
+  --tw-scale-x: .95;
+  --tw-scale-y: .95;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.active\:scale-90:active {
+  --tw-scale-x: .9;
+  --tw-scale-y: .9;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.active\:scale-75:active {
+  --tw-scale-x: .75;
+  --tw-scale-y: .75;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .active\:\[box-shadow\:0_0_0_2px_\#0f6dbf\]:active {
   box-shadow: 0 0 0 2px #0f6dbf;
 }
@@ -4490,6 +4508,26 @@ video {
 
   .sm\:right-9 {
     right: 2.25rem;
+  }
+
+  .sm\:bottom-24 {
+    bottom: 6rem;
+  }
+
+  .sm\:bottom-\[88px\] {
+    bottom: 88px;
+  }
+
+  .sm\:bottom-\[90px\] {
+    bottom: 90px;
+  }
+
+  .sm\:bottom-\[92px\] {
+    bottom: 92px;
+  }
+
+  .sm\:bottom-\[96px\] {
+    bottom: 96px;
   }
 
   .sm\:mx-auto {
