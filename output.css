@@ -763,6 +763,10 @@ video {
   top: 72px;
 }
 
+.right-2 {
+  right: 0.5rem;
+}
+
 .isolate {
   isolation: isolate;
 }
@@ -1132,6 +1136,10 @@ video {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-\[80\%\] {
+  height: 80%;
 }
 
 .max-h-\[95\%\] {
@@ -4102,21 +4110,9 @@ video {
   text-align: center;
 }
 
-.active\:scale-95:active {
-  --tw-scale-x: .95;
-  --tw-scale-y: .95;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .active\:scale-90:active {
   --tw-scale-x: .9;
   --tw-scale-y: .9;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.active\:scale-75:active {
-  --tw-scale-x: .75;
-  --tw-scale-y: .75;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -4490,12 +4486,12 @@ video {
 }
 
 @media (min-width: 640px) {
-  .sm\:bottom-20 {
-    bottom: 5rem;
-  }
-
   .sm\:bottom-4 {
     bottom: 1rem;
+  }
+
+  .sm\:bottom-\[90px\] {
+    bottom: 90px;
   }
 
   .sm\:right-5 {
@@ -4508,26 +4504,6 @@ video {
 
   .sm\:right-9 {
     right: 2.25rem;
-  }
-
-  .sm\:bottom-24 {
-    bottom: 6rem;
-  }
-
-  .sm\:bottom-\[88px\] {
-    bottom: 88px;
-  }
-
-  .sm\:bottom-\[90px\] {
-    bottom: 90px;
-  }
-
-  .sm\:bottom-\[92px\] {
-    bottom: 92px;
-  }
-
-  .sm\:bottom-\[96px\] {
-    bottom: 96px;
   }
 
   .sm\:mx-auto {
@@ -4582,6 +4558,10 @@ video {
   .sm\:h-max {
     height: -moz-max-content;
     height: max-content;
+  }
+
+  .sm\:h-\[90\%\] {
+    height: 90%;
   }
 
   .sm\:w-12 {
@@ -4797,6 +4777,18 @@ video {
     top: 2rem;
   }
 
+  .md\:right-4 {
+    right: 1rem;
+  }
+
+  .md\:top-4 {
+    top: 1rem;
+  }
+
+  .md\:right-5 {
+    right: 1.25rem;
+  }
+
   .md\:my-6 {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
@@ -4816,6 +4808,10 @@ video {
 
   .md\:mt-6 {
     margin-top: 1.5rem;
+  }
+
+  .md\:mt-4 {
+    margin-top: 1rem;
   }
 
   .md\:block {
