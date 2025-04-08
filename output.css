@@ -4505,9 +4505,15 @@ video {
   border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
 }
 
+
 .dark\:hover\:bg-\[\#050a17\]:hover:is(.dark *) {
   --tw-bg-opacity: 1;
   background-color: rgb(5 10 23 / var(--tw-bg-opacity, 1));
+
+.dark\:hover\:bg-\[\#0a1338\]:hover:is(.dark *) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(10 19 56 / var(--tw-bg-opacity, 1));
+
 }
 
 .dark\:hover\:bg-\[\#0f6dbf\]:hover:is(.dark *) {
