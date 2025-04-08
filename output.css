@@ -663,6 +663,10 @@ video {
   inset: 0px;
 }
 
+.-bottom-10 {
+  bottom: -2.5rem;
+}
+
 .-left-1\/4 {
   left: -25%;
 }
@@ -765,14 +769,6 @@ video {
 
 .top-\[72px\] {
   top: 72px;
-}
-
-.-bottom-10 {
-  bottom: -2.5rem;
-}
-
-.-bottom-5 {
-  bottom: -1.25rem;
 }
 
 .isolate {
@@ -1082,6 +1078,10 @@ video {
   height: 3rem;
 }
 
+.h-14 {
+  height: 3.5rem;
+}
+
 .h-16 {
   height: 4rem;
 }
@@ -1146,16 +1146,16 @@ video {
   height: 100vh;
 }
 
-.h-14 {
-  height: 3.5rem;
-}
-
 .max-h-\[95\%\] {
   max-height: 95%;
 }
 
 .w-10 {
   width: 2.5rem;
+}
+
+.w-14 {
+  width: 3.5rem;
 }
 
 .w-16 {
@@ -1249,10 +1249,6 @@ video {
 .w-max {
   width: -moz-max-content;
   width: max-content;
-}
-
-.w-14 {
-  width: 3.5rem;
 }
 
 .max-w-72 {
@@ -2682,21 +2678,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.bg-yellow-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(253 224 71 / var(--tw-bg-opacity, 1));
-}
-
-.bg-green-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(74 222 128 / var(--tw-bg-opacity, 1));
-}
-
-.bg-\[\#ff0000\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 0 0 / var(--tw-bg-opacity, 1));
-}
-
 .bg-gradient-to-l {
   background-image: linear-gradient(to left, var(--tw-gradient-stops));
 }
@@ -2824,6 +2805,10 @@ video {
   fill: #0f6dbf;
 }
 
+.fill-\[\#111\] {
+  fill: #111;
+}
+
 .fill-\[\#1f387e\] {
   fill: #1f387e;
 }
@@ -2834,14 +2819,6 @@ video {
 
 .fill-white {
   fill: #fff;
-}
-
-.fill-\[\#ff0000\] {
-  fill: #ff0000;
-}
-
-.fill-\[\#111\] {
-  fill: #111;
 }
 
 .object-contain {
@@ -2883,6 +2860,26 @@ video {
 
 .p-\[6px\] {
   padding: 6px;
+}
+
+.p-\[0\.4\] {
+  padding: 0.4;
+}
+
+.p-\[0\.4px\] {
+  padding: 0.4px;
+}
+
+.p-\[2px\] {
+  padding: 2px;
+}
+
+.p-\[3px\] {
+  padding: 3px;
+}
+
+.p-1\.5 {
+  padding: 0.375rem;
 }
 
 .px-0 {
@@ -3345,16 +3342,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-green-400 {
-  --tw-text-opacity: 1;
-  color: rgb(74 222 128 / var(--tw-text-opacity, 1));
-}
-
-.text-\[\#ff0000\] {
-  --tw-text-opacity: 1;
-  color: rgb(255 0 0 / var(--tw-text-opacity, 1));
 }
 
 .underline {
@@ -4200,6 +4187,10 @@ video {
   top: -2.25rem;
 }
 
+.group:hover .group-hover\:bottom-2 {
+  bottom: 0.5rem;
+}
+
 .group:hover .group-hover\:left-4 {
   left: 1rem;
 }
@@ -4210,22 +4201,6 @@ video {
 
 .group:hover .group-hover\:top-12 {
   top: 3rem;
-}
-
-.group:hover .group-hover\:bottom-0 {
-  bottom: 0px;
-}
-
-.group:hover .group-hover\:bottom-2 {
-  bottom: 0.5rem;
-}
-
-.group:hover .group-hover\:-bottom-2 {
-  bottom: -0.5rem;
-}
-
-.group:hover .group-hover\:-bottom-0 {
-  bottom: -0px;
 }
 
 .group:hover .group-hover\:flex {
@@ -4255,28 +4230,14 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.group:hover .group-hover\:scale-\[\.60\] {
-  --tw-scale-x: .60;
-  --tw-scale-y: .60;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.group:hover .group-hover\:scale-\[\.75\] {
-  --tw-scale-x: .75;
-  --tw-scale-y: .75;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.group:hover .group-hover\:scale-75 {
-  --tw-scale-x: .75;
-  --tw-scale-y: .75;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .group:hover .group-hover\:scale-\[\.8\] {
   --tw-scale-x: .8;
   --tw-scale-y: .8;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.group:hover .group-hover\:fill-\[\#0a4f78\] {
+  fill: #0a4f78;
 }
 
 .group:hover .group-hover\:fill-\[\#1f387e\] {
@@ -4285,10 +4246,6 @@ video {
 
 .group:hover .group-hover\:fill-\[\#7b218c\] {
   fill: #7b218c;
-}
-
-.group:hover .group-hover\:fill-\[\#0a4f78\] {
-  fill: #0a4f78;
 }
 
 .group:hover .group-hover\:fill-\[\#ff3737\] {
