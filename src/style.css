@@ -12,12 +12,12 @@ html {
 }
 
 .container {
-    /* visibility: hidden; */
+    visibility: hidden;
     /* transform: scale(0.9); */
 }
 
 .open-popup {
-    /* visibility: visible; */
+    visibility: visible;
     /* transform: scale(1); */
 }
 
