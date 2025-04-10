@@ -771,18 +771,6 @@ video {
   top: 72px;
 }
 
-.-bottom-5 {
-  bottom: -1.25rem;
-}
-
-.-bottom-0 {
-  bottom: -0px;
-}
-
-.-bottom-2 {
-  bottom: -0.5rem;
-}
-
 .isolate {
   isolation: isolate;
 }
@@ -2690,11 +2678,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.bg-red-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(220 38 38 / var(--tw-bg-opacity, 1));
-}
-
 .bg-gradient-to-l {
   background-image: linear-gradient(to left, var(--tw-gradient-stops));
 }
@@ -4188,8 +4171,8 @@ video {
   top: -2.25rem;
 }
 
-.group:hover .group-hover\:bottom-2 {
-  bottom: 0.5rem;
+.group:hover .group-hover\:bottom-0 {
+  bottom: 0px;
 }
 
 .group:hover .group-hover\:left-4 {
@@ -4202,18 +4185,6 @@ video {
 
 .group:hover .group-hover\:top-12 {
   top: 3rem;
-}
-
-.group:hover .group-hover\:bottom-5 {
-  bottom: 1.25rem;
-}
-
-.group:hover .group-hover\:bottom-0 {
-  bottom: 0px;
-}
-
-.group:hover .group-hover\:bottom-1 {
-  bottom: 0.25rem;
 }
 
 .group:hover .group-hover\:-bottom-1 {
@@ -4247,20 +4218,8 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.group:hover .group-hover\:scale-\[\.8\] {
-  --tw-scale-x: .8;
-  --tw-scale-y: .8;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.group:hover .group-hover\:scale-\[1\] {
-  --tw-scale-x: 1;
-  --tw-scale-y: 1;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.group:hover .group-hover\:fill-\[\#0a4f78\] {
-  fill: #0a4f78;
+.group:hover .group-hover\:fill-\[\#0f6dbf\] {
+  fill: #0f6dbf;
 }
 
 .group:hover .group-hover\:fill-\[\#1f387e\] {
@@ -4275,8 +4234,20 @@ video {
   fill: #ff3737;
 }
 
-.group:hover .group-hover\:fill-\[\#0f6dbf\] {
-  fill: #0f6dbf;
+.group:hover .group-hover\:fill-\[\#041d35\] {
+  fill: #041d35;
+}
+
+.group:hover .group-hover\:fill-\[\#fff\] {
+  fill: #fff;
+}
+
+.group:hover .group-hover\:fill-\[\#\#31a8f7\] {
+  fill: ##31a8f7;
+}
+
+.group:hover .group-hover\:fill-\[\#31a8f7\] {
+  fill: #31a8f7;
 }
 
 .group:hover .group-hover\:text-\[\#fff\] {
@@ -4445,6 +4416,18 @@ video {
   fill: #fff;
 }
 
+.dark\:fill-\[\#041d35\]:is(.dark *) {
+  fill: #041d35;
+}
+
+.dark\:fill-\[\#31a8f7\]:is(.dark *) {
+  fill: #31a8f7;
+}
+
+.dark\:fill-\[\#111\]:is(.dark *) {
+  fill: #111;
+}
+
 .dark\:text-\[\#0f6dbf\]:is(.dark *) {
   --tw-text-opacity: 1;
   color: rgb(15 109 191 / var(--tw-text-opacity, 1));
@@ -4502,16 +4485,6 @@ video {
 .dark\:text-white:is(.dark *) {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.dark\:text-\[\#7b218c\]:is(.dark *) {
-  --tw-text-opacity: 1;
-  color: rgb(123 33 140 / var(--tw-text-opacity, 1));
-}
-
-.dark\:text-\[\#ff3737\]:is(.dark *) {
-  --tw-text-opacity: 1;
-  color: rgb(255 55 55 / var(--tw-text-opacity, 1));
 }
 
 .dark\:drop-shadow-\[0_0px_20px_rgba\(59\2c 130\2c 246\2c 0\.3\)\]:is(.dark *) {
@@ -4581,24 +4554,29 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
-.dark\:hover\:text-\[\#0f6dbf\]:hover:is(.dark *) {
-  --tw-text-opacity: 1;
-  color: rgb(15 109 191 / var(--tw-text-opacity, 1));
-}
-
-.dark\:hover\:text-\[\#7b218c\]:hover:is(.dark *) {
-  --tw-text-opacity: 1;
-  color: rgb(123 33 140 / var(--tw-text-opacity, 1));
-}
-
-.dark\:hover\:text-\[\#ff3737\]:hover:is(.dark *) {
-  --tw-text-opacity: 1;
-  color: rgb(255 55 55 / var(--tw-text-opacity, 1));
-}
-
 .dark\:focus\:border-\[\#0f6dbf\]:focus:is(.dark *) {
   --tw-border-opacity: 1;
   border-color: rgb(15 109 191 / var(--tw-border-opacity, 1));
+}
+
+.group:hover .dark\:group-hover\:fill-\[\#7209b7\]:is(.dark *) {
+  fill: #7209b7;
+}
+
+.group:hover .dark\:group-hover\:fill-\[\#c77dff\]:is(.dark *) {
+  fill: #c77dff;
+}
+
+.group:hover .dark\:group-hover\:fill-\[\#9d4edd\]:is(.dark *) {
+  fill: #9d4edd;
+}
+
+.group:hover .dark\:group-hover\:fill-\[\#fff\]:is(.dark *) {
+  fill: #fff;
+}
+
+.group:hover .dark\:group-hover\:fill-\[\#111\]:is(.dark *) {
+  fill: #111;
 }
 
 .group:hover .dark\:group-hover\:text-\[\#111\]:is(.dark *) {
