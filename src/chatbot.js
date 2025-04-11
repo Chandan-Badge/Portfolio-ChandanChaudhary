@@ -90,7 +90,7 @@ const handleOutgoingMessage = (e) => {
     fileUploadWrapper.classList.remove("file-uploaded");
 
     // create and display user message
-    const messageContent = `<div class="message-text py-2 px-4 max-w-[75%] text-[0.95rem] text-white bg-[#0f6dbf] rounded-l-xl rounded-tr-xl">  </div>
+    const messageContent = `<div class="message-text py-2 px-4 max-w-[75%] text-[12px] sm:text-[14px] text-white bg-[#0f6dbf] rounded-l-xl rounded-tr-xl">  </div>
                             ${userData.file.data ? `<img src="data:${userData.file.mime_type};base64,${userData.file.data}" class="attachment w-[40%] mt-1 rounded-l-lg rounded-tr-lg" />` : ""}`;
     
     const outgoingMessageDiv =  createMessageElement(messageContent, "user-message");
@@ -102,9 +102,9 @@ const handleOutgoingMessage = (e) => {
     // Simulate bot response with thinking indicator after a delay
     setTimeout(() => {
         const messageContent = `<div class="message bot-message text-black flex gap-3 items-center">
-                <img src="./assets/bot-icons/botavatar.svg" alt="bot" class="bot-avatar w-9 h-9 p-[6px] fill-white bg-[#0f6dbf] flex-shrink-0 rounded-full self-end mb-[2px]">
+                <img src="./assets/bot-icons/botavatar.svg" alt="bot" class="bot-avatar w-8 sm:w-9 h-8 sm:h-9 p-[6px] fill-white bg-[#0f6dbf] flex-shrink-0 rounded-full self-end mb-[2px]">
                 
-                <div class="message-text py-2 px-3 max-w-[75%] text-[0.95rem] bg-[#f2f2ff] dark:bg-gray-700 text-black dark:text-[#fff] rounded-r-xl rounded-tl-xl">
+                <div class="message-text py-2 px-3 max-w-[75%] text-[12px] sm:text-[14px] bg-[#f2f2ff] dark:bg-gray-700 text-black dark:text-[#fff] rounded-r-xl rounded-tl-xl">
                     <!-- Thinking message -->
                     <div class="thinking-indicator flex gap-1 py-2 px-4">
                         <div class="dot h-2 w-2 rounded-full bg-[#0f84bf]"></div>
