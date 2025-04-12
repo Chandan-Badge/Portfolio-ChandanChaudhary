@@ -3896,11 +3896,6 @@ video {
   top: 100px;
 }
 
-.after\:z-0::after {
-  content: var(--tw-content);
-  z-index: 0;
-}
-
 .after\:-z-10::after {
   content: var(--tw-content);
   z-index: -10;
