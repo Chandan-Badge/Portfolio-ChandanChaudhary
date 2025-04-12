@@ -92,7 +92,7 @@
     
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1286px) {
     .not-show-odd {
         /* opacity: 0;
         transition: all 1.5s;
@@ -134,7 +134,7 @@
     
     .not-show-bottom {
         opacity: 0;
-        transition: all 1s;
+        transition: all 1.5s;
         filter: blur(5px);
         transform: translateY(200%);
     }
@@ -145,12 +145,12 @@
         filter: blur(5px);
         transform: translateX(-30%); */
     
-            opacity: 0;
-            transition: all 0.5s;
-            filter: blur(5px);
-            transform: translateX(-50%);
-            
-            transform: scale(0.4);
+        opacity: 0;
+        transition: all 0.5s;
+        filter: blur(5px);
+        transform: translateX(-50%);
+        
+        transform: scale(0.4);
     }
     
     .not-show-right {
@@ -159,12 +159,12 @@
         filter: blur(5px);
         transform: translateX(30%); */
     
-            opacity: 0;
-            transition: all 0.5s;
-            filter: blur(5px);
-            transform: translateX(-50%);
-            
-            transform: scale(0.4);
+        opacity: 0;
+        transition: all 0.5s;
+        filter: blur(5px);
+        transform: translateX(-50%);
+        
+        transform: scale(0.4);
     }
     
     .not-show-left-special {
@@ -173,12 +173,12 @@
         filter: blur(5px);
         transform: translateX(-15%); */
     
-            opacity: 0;
-            transition: all 0.5s;
-            filter: blur(5px);
-            transform: translateX(-50%);
-            
-            transform: scale(0.4);
+        opacity: 0;
+        transition: all 0.5s;
+        filter: blur(5px);
+        transform: translateX(-50%);
+        
+        transform: scale(0.4);
     }
     
     .not-show-right-special {
@@ -187,12 +187,12 @@
         filter: blur(5px);
         transform: translateX(15%); */
     
-            opacity: 0;
-            transition: all 0.5s;
-            filter: blur(5px);
-            transform: translateX(-50%);
-            
-            transform: scale(0.4);
+        opacity: 0;
+        transition: all 0.5s;
+        filter: blur(5px);
+        transform: translateX(-50%);
+        
+        transform: scale(0.4);
     }
     
     .not-show-left-high {
@@ -201,12 +201,12 @@
         filter: blur(5px);
         transform: translateX(-50%); */
     
-            opacity: 0;
-            transition: all 0.5s;
-            filter: blur(5px);
-            transform: translateX(-50%);
-            
-            transform: scale(0.4);
+        opacity: 0;
+        transition: all 0.5s;
+        filter: blur(5px);
+        transform: translateX(-50%);
+        
+        transform: scale(0.4);
     }
     
     .not-show-right-high {
@@ -215,12 +215,12 @@
         filter: blur(5px);
         transform: translateX(50%); */
     
-            opacity: 0;
-            transition: all 0.5s;
-            filter: blur(5px);
-            transform: translateX(-50%);
-            
-            transform: scale(0.4);
+        opacity: 0;
+        transition: all 0.5s;
+        filter: blur(5px);
+        transform: translateX(-50%);
+        
+        transform: scale(0.4);
     }
 
     .not-show-left-high {
@@ -229,12 +229,12 @@
         filter: blur(5px);
         transform: translateX(-50%); */
 
-            opacity: 0;
-            transition: all 0.5s;
-            filter: blur(5px);
-            transform: translateX(-50%);
-            
-            transform: scale(0.4);
+        opacity: 0;
+        transition: all 0.5s;
+        filter: blur(5px);
+        transform: translateX(-50%);
+        
+        transform: scale(0.4);
     }
     
     .not-show-right-high {
@@ -243,12 +243,12 @@
         filter: blur(5px);
         transform: translateX(50%); */
 
-            opacity: 0;
-            transition: all 0.5s;
-            filter: blur(5px);
-            transform: translateX(-50%);
-            
-            transform: scale(0.4);
+        opacity: 0;
+        transition: all 0.5s;
+        filter: blur(5px);
+        transform: translateX(-50%);
+        
+        transform: scale(0.4);
     }
 }
 
