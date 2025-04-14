@@ -971,10 +971,6 @@ video {
   margin-top: 1.25rem;
 }
 
-.mt-6 {
-  margin-top: 1.5rem;
-}
-
 .box-border {
   box-sizing: border-box;
 }
@@ -3747,6 +3743,10 @@ video {
   transition-duration: 400ms;
 }
 
+.duration-0 {
+  transition-duration: 0s;
+}
+
 .ease-in {
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
@@ -4367,11 +4367,6 @@ video {
 
 .dark\:border-b-2:is(.dark *) {
   border-bottom-width: 2px;
-}
-
-.dark\:border-\[\#111\]:is(.dark *) {
-  --tw-border-opacity: 1;
-  border-color: rgb(17 17 17 / var(--tw-border-opacity, 1));
 }
 
 .dark\:border-\[\#ffe342\]:is(.dark *) {
