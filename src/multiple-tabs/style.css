@@ -8,6 +8,10 @@
     color: #fff;
 }
 
+.tab-box .tab-btn.active:is(.dark *) {
+    background-color: #0f6dbf;
+}
+
 .content-box .content {
     display: none;
     animation: moving .5s ease;
