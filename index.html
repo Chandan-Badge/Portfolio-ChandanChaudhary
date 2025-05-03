@@ -34,6 +34,10 @@
      <link rel="stylesheet" href="./src/progress/style.css">
      <script src="./src/progress/script.js" defer></script>
 
+     <link rel="stylesheet" href="./src/slider.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+     <script src="./src/slider.js" defer></script>
+
 </head>
 <body class="bg-[#fff] dark:bg-gradient-to-l dark:bg-[#111] dark:from-[#040917] dark:to-[#111] text-white font-[poppins] scroll-smooth cursor-none">
 
@@ -1061,9 +1065,45 @@
     </section>
 
     <!-- Response Section -->
-     <!-- <section class="max-w-screen-xl mx-auto px-4 relative">
-        <h2 class="not-show-pop text-2xl sm:text-4xl text-center relative z-10 font-bold px-4 py-2 w-max mx-auto mt-14 text-[#0f6dbf] dark:bg-[#111] bg-[#fff] border-2 rounded border-[#0f6dbf]">Client Response</h2>
-     </section> -->
+     <section class="max-w-screen-xl mx-auto px-4 relative">
+        <h2 class="not-show-pop text-2xl sm:text-4xl text-center relative z-10 font-bold px-4 py-2 w-max mx-auto mt-14 text-[#0f6dbf] dark:bg-[#111] bg-[#fff] border-2 rounded border-[#0f6dbf]">Clients Response</h2>
+
+        <div class="slider-box mt-8 w-full h-[70vh] flex items-center justify-center">
+          <div class="swiper w-[80%]">
+              <div class="swiper-wrapper">
+              <!-- Slides -->
+                  <div class="swiper-slide">
+                    <div class="w-full h-[60vh] flex items-center justify-center">
+                      <div class="bg-[#fff] w-[85%] h-[90%] text-[#222] flex justify-center items-center drop-shadow-lg">Added Soon...</div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="w-full h-[60vh] flex items-center justify-center">
+                      <div class="bg-[#fff] w-[85%] h-[90%] text-[#222] flex justify-center items-center drop-shadow-lg">Added Soon...</div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="w-full h-[60vh] flex items-center justify-center">
+                      <div class="bg-[#fff] w-[85%] h-[90%] text-[#222] flex justify-center items-center drop-shadow-lg">Added Soon...</div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="w-full h-[60vh] flex items-center justify-center">
+                      <div class="bg-[#fff] w-[85%] h-[90%] text-[#222] flex justify-center items-center drop-shadow-lg">Added Soon...</div>
+                    </div>
+                  </div>
+              </div>
+              
+              <div class="swiper-pagination"></div>
+          
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+          </div>
+      </div>
+     </section>
 
     <!-- Footer -->
     <section>
@@ -1249,5 +1289,7 @@
  
         <!-- Linking Emoji Mart script for rmoji picker -->
         <script src="https://cdn.jsdelivr.net/npm/emoji-mart@latest/dist/browser.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </body>
 </html>
