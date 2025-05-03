@@ -4,56 +4,80 @@
 
 /*  */
 .swiper-button-prev {
-    position: absolute !important;
-    top: 13vw !important;
-    left: 2px !important;
-  }
+  position: absolute !important;
+  top: 45% !important;
+  left: 2px !important;
+}
+
+.swiper-button-next {
+  position: absolute !important;
+  top: 47% !important;
+  right: 2px !important;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  color: #111;
+  background-color: #0f6dbf;
+  padding: 30px !important;
+  border-radius: 50% !important;
+  box-shadow: -1px 1px 3px 0px #111;
+  border-radius: 50%;
+
+  transition: all 0.1s ease-in-out;
+}
   
-  .swiper-button-next {
-    position: absolute !important;
-    top: 13vw !important;
-    right: 2px !important;
-  }
-  
+.swiper-button-next:hover, .swiper-button-prev:hover {
+  transform: scale(1.05);
+  background-color: #1873c2;
+}
+
+.swiper-button-next:active, .swiper-button-prev:active {
+  transform: scale(1.05);
+  background-color: #3f8ed3;
+}
+
+.swiper-button-prev::after, .swiper-button-next::after {
+  color: #fff;
+  font-size: 20px !important;
+  font-weight: 800 !important;
+}
+
+.swiper .swiper-pagination-bullet-active {
+  background-color: #0f6dbf !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: #111 !important;
+}
+
+.swiper-pagination-bullet:is(.dark *) {
+  background-color: #fff !important;
+}
+
+.swiper-pagination .swiper-pagination-clickable .swiper-pagination-bullets .swiper-pagination-horizontal {
+
+}
+
+.swiper-pagination-horizontal {
+  position: relative !important;
+}
+
+@media (max-width: 1024px) {
   .swiper-button-next, .swiper-button-prev {
-    color: #111;
-    background-color: #0f6dbf;
-    padding: 30px !important;
+    padding: 0px 22px !important;
     border-radius: 50% !important;
-    box-shadow: -1px 1px 3px 0px #111;
-    border-radius: 50%;
-  
-    transition: all 0.1s ease-in-out;
+    margin: 0px !important;
+
+    /* top: 40% !important; */
   }
-  
-  .swiper-button-next:hover, .swiper-button-prev:hover {
-    transform: scale(1.05);
-    background-color: #1873c2;
-  }
-  
-  .swiper-button-next:active, .swiper-button-prev:active {
-    transform: scale(1.05);
-    background-color: #3f8ed3;
-  }
-  
+
   .swiper-button-prev::after, .swiper-button-next::after {
-    color: #fff;
-    font-size: 20px !important;
-    font-weight: 400 !important;
+    font-size: 10px !important;
   }
-  
-  .swiper .swiper-pagination-bullet-active {
-    background-color: #0f6dbf !important;
+}
+
+/* @media (max-width: 768px) {
+  .swiper-button-next, .swiper-button-prev {
+    top: 40% !important;
   }
-  
-  .swiper-pagination-bullet {
-    background-color: #059b5e !important;
-  }
-  
-  .swiper-pagination .swiper-pagination-clickable .swiper-pagination-bullets .swiper-pagination-horizontal {
-  
-  }
-  
-  .swiper-pagination-horizontal {
-    position: relative !important;
-  }
+} */
