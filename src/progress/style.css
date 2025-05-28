@@ -75,7 +75,7 @@
 
 /* Backend */
 .expressjs {
-    width: 80%;
+    width: 85%;
     animation: expressjs 3s;
 }
 
@@ -95,7 +95,7 @@
     }
 
     100% {
-        width: 80%;
+        width: 85%;
     }
 }
 
@@ -167,7 +167,7 @@
 }
 
 .typescript {
-    width: 40%;
+    width: 80%;
     animation: typescript 3s;
 }
 
@@ -207,6 +207,6 @@
     }
 
     100% {
-        width: 40%;
+        width: 80%;
     }
 }
