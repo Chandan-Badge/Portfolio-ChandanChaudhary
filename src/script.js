@@ -47,7 +47,7 @@ darkBtn.addEventListener("click", () => {
     html.classList.remove("dark");
 })
 
-// footer scroll
+// footer scroll to top
 let aboutFoot = document.querySelector(".about-foot");
 aboutFoot.addEventListener("click", () => {
     window.scrollTo(0, 0);
@@ -66,13 +66,13 @@ projectFoot.addEventListener("click", () => {
 let servicesFoot = document.querySelector(".services-foot");
 
 servicesFoot.addEventListener("click", () => {
-    window.scrollTo(0, 2620);
+    window.scrollTo(0, 2650);
 })
 
 let connectFoot = document.querySelector(".connect-foot");
 
 connectFoot.addEventListener("click", () => {
-    window.scrollTo(0, 3050);
+    window.scrollTo(0, 3850);
 })
 
 // Back to Top
