@@ -53,10 +53,10 @@ aboutFoot.addEventListener("click", () => {
     window.scrollTo(0, 0);
 })
 
-let resumeFoot = document.querySelector(".resume-foot");
-resumeFoot.addEventListener("click", () => {
-    window.scrollTo(0, 0);
-})
+// let resumeFoot = document.querySelector(".resume-foot");
+// resumeFoot.addEventListener("click", () => {
+//     window.scrollTo(0, 0);
+// })
 
 let projectFoot = document.querySelector(".project-foot");
 projectFoot.addEventListener("click", () => {
@@ -69,10 +69,22 @@ servicesFoot.addEventListener("click", () => {
     window.scrollTo(0, 2650);
 })
 
+let principlesFoot = document.querySelector(".principles-foot");
+
+principlesFoot.addEventListener("click", () => {
+    window.scrollTo(0, 3130);
+})
+
 let connectFoot = document.querySelector(".connect-foot");
 
 connectFoot.addEventListener("click", () => {
     window.scrollTo(0, 3850);
+})
+
+let testimonialsFoot = document.querySelector(".testimonials-foot");
+
+testimonialsFoot.addEventListener("click", () => {
+    window.scrollTo(0, 4500);
 })
 
 // Back to Top
