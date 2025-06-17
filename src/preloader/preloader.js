@@ -1,3 +1,5 @@
-$(window).on("load", function() {
-    $(".loader-wrapper").fadeOut("slow");
-});
+let preloader = document.querySelector(".preloader");
+
+window.addEventListener("load", function () {
+    preloader.style.display = "none";
+})
