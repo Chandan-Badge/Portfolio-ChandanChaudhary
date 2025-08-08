@@ -43,7 +43,7 @@ const observer2 = new IntersectionObserver((entries) => {
         if(entry.isIntersecting) {
             entry.target.classList.add("show-move");
         } else {
-            // entry.target.classList.remove("show-simple");
+            entry.target.classList.remove("show-move");
         }
     });
 });
