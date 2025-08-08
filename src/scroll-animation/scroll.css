@@ -1,3 +1,21 @@
+/* New */
+.s {
+    display: none;
+    animation: moving .5s ease;
+}
+
+@keyframes moving {
+    from{
+        transform: translateX(50px); 
+        opacity: 0;
+    }
+
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
 /* Scroll Animation */
 
 .not-show-odd {
@@ -252,7 +270,7 @@
     }
 }
 
-.show {
+.show-animation {
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
