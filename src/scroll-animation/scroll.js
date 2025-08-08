@@ -1,11 +1,11 @@
-// Animation on Scroll
+// ==> Animation on Scroll
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         // console.log(entry);
         if(entry.isIntersecting) {
             entry.target.classList.add("show-animation");
         } else {
-            entry.target.classList.remove("show-animation");
+            // entry.target.classList.remove("show-animation");
         }
     });
 });
@@ -36,7 +36,7 @@ hiddenElementsLS.forEach((e1) => observer.observe(e1));
 hiddenElementsRH.forEach((e1) => observer.observe(e1));
 hiddenElementsLH.forEach((e1) => observer.observe(e1));
 
-// New animation
+// ==> New animation
 const observer2 = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         // console.log(entry);
@@ -47,6 +47,13 @@ const observer2 = new IntersectionObserver((entries) => {
         }
     });
 });
-const hiddenElementsLeft = document.querySelectorAll(".move-left");
+
+const hiddenElementsLeft = document.querySelectorAll(".move-from-left");
+const hiddenElementsRight = document.querySelectorAll(".move-from-right");
+const hiddenElementsTop = document.querySelectorAll(".move-from-top");
+const hiddenElementsBottom = document.querySelectorAll(".move-from-bottom");
 
 hiddenElementsLeft.forEach((e1) => observer2.observe(e1));
+hiddenElementsRight.forEach((e1) => observer2.observe(e1));
+hiddenElementsTop.forEach((e1) => observer2.observe(e1));
+hiddenElementsBottom.forEach((e1) => observer2.observe(e1));

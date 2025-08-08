@@ -1,33 +1,4 @@
-/* New animation */
-.move-left {
-    /* display: none; */
-    /* animation: moving .5s ease; */
-
-    transform: translateX(-100px);
-    filter: blur(5px);
-    opacity: 0;
-    transition: all 1.5s;
-}
-
-.show-move {
-    transform: translateX(0px);
-    opacity: 1;
-    filter: blur(0);
-}
-
-/* @keyframes moving {
-    from {
-        transform: translateX(50px); 
-        opacity: 0;
-    }
-
-    to {
-        transform: translateX(0px);
-        opacity: 1;
-    }
-} */
-
-/* Scroll Animation */
+/* ==> Scroll Animation */
 
 .not-show-odd {
     opacity: 0;
@@ -288,3 +259,55 @@
 
     transform: scale(1);
 }
+
+
+/* ==> New animation */
+.move-from-left {
+    /* display: none; */
+    /* animation: moving .5s ease; */
+
+    transform: translateX(-100px);
+    filter: blur(5px);
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.move-from-right {
+    transform: translateX(100px);
+    filter: blur(5px);
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.move-from-top {
+    transform: translateY(-100px);
+    filter: blur(5px);
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.move-from-bottom {
+    transform: translateY(100px);
+    filter: blur(5px);
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.show-move {
+    transform: translateX(0px);
+    transform: translateY(0px);
+    opacity: 1;
+    filter: blur(0);
+}
+
+/* @keyframes moving {
+    from {
+        transform: translateX(50px); 
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+} */
