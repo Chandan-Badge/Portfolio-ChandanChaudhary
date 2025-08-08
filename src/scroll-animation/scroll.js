@@ -4,9 +4,8 @@ const observer = new IntersectionObserver((entries) => {
         // console.log(entry);
         if(entry.isIntersecting) {
             entry.target.classList.add("show-animation");
-            // entry.target.classList.add("show-simple");
         } else {
-            // entry.target.classList.remove("show-animation");
+            entry.target.classList.remove("show-animation");
         }
     });
 });
@@ -37,17 +36,17 @@ hiddenElementsLS.forEach((e1) => observer.observe(e1));
 hiddenElementsRH.forEach((e1) => observer.observe(e1));
 hiddenElementsLH.forEach((e1) => observer.observe(e1));
 
+// New animation
 const observer2 = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         // console.log(entry);
         if(entry.isIntersecting) {
-            // entry.target.classList.add("show-animation");
-            entry.target.classList.add("show-simple");
+            entry.target.classList.add("show-move");
         } else {
-            // entry.target.classList.remove("show-animation");
+            // entry.target.classList.remove("show-simple");
         }
     });
 });
-const hiddenElementsSM = document.querySelectorAll(".simple");
+const hiddenElementsLeft = document.querySelectorAll(".move-left");
 
-hiddenElementsSM.forEach((e1) => observer2.observe(e1));
+hiddenElementsLeft.forEach((e1) => observer2.observe(e1));
