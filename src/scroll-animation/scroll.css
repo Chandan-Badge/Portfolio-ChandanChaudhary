@@ -1,16 +1,24 @@
 /* New */
-.s {
-    display: none;
-    animation: moving .5s ease;
+.simple {
+    /* display: none; */
+    /* animation: moving .5s ease; */
+
+    transform: translateX(50px);
+    opacity: 0;
+}
+
+.show-simple {
+    transform: translateX(0px);
+    opacity: 1;
 }
 
 @keyframes moving {
-    from{
+    from {
         transform: translateX(50px); 
         opacity: 0;
     }
 
-    to{
+    to {
         transform: translateX(0px);
         opacity: 1;
     }

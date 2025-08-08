@@ -4,8 +4,9 @@ const observer = new IntersectionObserver((entries) => {
         // console.log(entry);
         if(entry.isIntersecting) {
             entry.target.classList.add("show-animation");
+            // entry.target.classList.add("show-simple");
         } else {
-            entry.target.classList.remove("show-animation");
+            // entry.target.classList.remove("show-animation");
         }
     });
 });
@@ -35,3 +36,18 @@ hiddenElementsRS.forEach((e1) => observer.observe(e1));
 hiddenElementsLS.forEach((e1) => observer.observe(e1));
 hiddenElementsRH.forEach((e1) => observer.observe(e1));
 hiddenElementsLH.forEach((e1) => observer.observe(e1));
+
+const observer2 = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        // console.log(entry);
+        if(entry.isIntersecting) {
+            // entry.target.classList.add("show-animation");
+            entry.target.classList.add("show-simple");
+        } else {
+            // entry.target.classList.remove("show-animation");
+        }
+    });
+});
+const hiddenElementsSM = document.querySelectorAll(".simple");
+
+hiddenElementsSM.forEach((e1) => observer2.observe(e1));
