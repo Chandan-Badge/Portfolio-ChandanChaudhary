@@ -262,7 +262,38 @@
 
 
 /* ==> New animation */
-.move-from-left {
+.move-from-left-sm {
+    /* display: none; */
+    /* animation: moving .5s ease; */
+
+    transform: translateX(-50px);
+    filter: blur(5px);
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.move-from-right-sm {
+    transform: translateX(50px);
+    filter: blur(5px);
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.move-from-top-sm {
+    transform: translateY(-50px);
+    filter: blur(5px);
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.move-from-bottom-sm {
+    transform: translateY(50px);
+    filter: blur(5px);
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.move-from-left-md {
     /* display: none; */
     /* animation: moving .5s ease; */
 
@@ -272,21 +303,21 @@
     transition: all 1.5s;
 }
 
-.move-from-right {
+.move-from-right-md {
     transform: translateX(100px);
     filter: blur(5px);
     opacity: 0;
     transition: all 1.5s;
 }
 
-.move-from-top {
+.move-from-top-md {
     transform: translateY(-100px);
     filter: blur(5px);
     opacity: 0;
     transition: all 1.5s;
 }
 
-.move-from-bottom {
+.move-from-bottom-md {
     transform: translateY(100px);
     filter: blur(5px);
     opacity: 0;

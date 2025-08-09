@@ -43,17 +43,27 @@ const observer2 = new IntersectionObserver((entries) => {
         if(entry.isIntersecting) {
             entry.target.classList.add("show-move");
         } else {
-            entry.target.classList.remove("show-move");
+            // entry.target.classList.remove("show-move");
         }
     });
 });
 
-const hiddenElementsLeft = document.querySelectorAll(".move-from-left");
-const hiddenElementsRight = document.querySelectorAll(".move-from-right");
-const hiddenElementsTop = document.querySelectorAll(".move-from-top");
-const hiddenElementsBottom = document.querySelectorAll(".move-from-bottom");
+const hiddenElementsLeft_sm = document.querySelectorAll(".move-from-left-sm");
+const hiddenElementsRight_sm = document.querySelectorAll(".move-from-right-sm");
+const hiddenElementsTop_sm = document.querySelectorAll(".move-from-top-sm");
+const hiddenElementsBottom_sm = document.querySelectorAll(".move-from-bottom-sm");
 
-hiddenElementsLeft.forEach((e1) => observer2.observe(e1));
-hiddenElementsRight.forEach((e1) => observer2.observe(e1));
-hiddenElementsTop.forEach((e1) => observer2.observe(e1));
-hiddenElementsBottom.forEach((e1) => observer2.observe(e1));
+const hiddenElementsLeft_md = document.querySelectorAll(".move-from-left-md");
+const hiddenElementsRight_md = document.querySelectorAll(".move-from-right-md");
+const hiddenElementsTop_md = document.querySelectorAll(".move-from-top-md");
+const hiddenElementsBottom_md = document.querySelectorAll(".move-from-bottom-md");
+
+hiddenElementsLeft_sm.forEach((e1) => observer2.observe(e1));
+hiddenElementsRight_sm.forEach((e1) => observer2.observe(e1));
+hiddenElementsTop_sm.forEach((e1) => observer2.observe(e1));
+hiddenElementsBottom_sm.forEach((e1) => observer2.observe(e1));
+
+hiddenElementsLeft_md.forEach((e1) => observer2.observe(e1));
+hiddenElementsRight_md.forEach((e1) => observer2.observe(e1));
+hiddenElementsTop_md.forEach((e1) => observer2.observe(e1));
+hiddenElementsBottom_md.forEach((e1) => observer2.observe(e1));
