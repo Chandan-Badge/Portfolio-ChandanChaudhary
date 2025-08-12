@@ -4871,6 +4871,10 @@ video {
     margin-left: 0px;
   }
 
+  .sm\:mt-9 {
+    margin-top: 2.25rem;
+  }
+
   .sm\:block {
     display: block;
   }
