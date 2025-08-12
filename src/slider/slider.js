@@ -10,12 +10,15 @@ const swiper = new Swiper('.swiper', {
 
     pagination: {
       el: '.swiper-pagination',
+      el: '.swiper-pagination2',
       clickable: true,
     },
   
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
+      nextEl: '.swiper-button-next2',
+      prevEl: '.swiper-button-prev2',
     },
     on: {
       autoplayTimeLeft(s, time, progress) {
