@@ -4030,6 +4030,11 @@ video {
   height: 16px;
 }
 
+.after\:h-\[14px\]::after {
+  content: var(--tw-content);
+  height: 14px;
+}
+
 .after\:w-2::after {
   content: var(--tw-content);
   width: 0.5rem;
