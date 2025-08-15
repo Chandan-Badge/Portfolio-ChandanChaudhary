@@ -4025,11 +4025,6 @@ video {
   height: 0.75rem;
 }
 
-.after\:h-\[16px\]::after {
-  content: var(--tw-content);
-  height: 16px;
-}
-
 .after\:h-\[14px\]::after {
   content: var(--tw-content);
   height: 14px;
