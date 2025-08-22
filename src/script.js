@@ -124,7 +124,7 @@ window.addEventListener("mousemove", (e) => {
     }, { duration: 500, fill: "forwards"});
 });
 
-// Real time
+// Real time clock
 function updateClock() {
     const now = new Date();
 
