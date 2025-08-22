@@ -992,6 +992,14 @@ video {
   margin-top: 2rem;
 }
 
+.ml-2\.5 {
+  margin-left: 0.625rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -2949,6 +2957,10 @@ video {
   fill: #fff;
 }
 
+.fill-\[\#cfd0db\] {
+  fill: #cfd0db;
+}
+
 .stroke-1 {
   stroke-width: 1;
 }
@@ -3266,6 +3278,16 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-bold {
@@ -4226,6 +4248,10 @@ video {
 .hover\:bg-white:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:fill-white:hover {
+  fill: #fff;
 }
 
 .hover\:font-bold:hover {

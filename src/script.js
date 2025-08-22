@@ -123,3 +123,31 @@ window.addEventListener("mousemove", (e) => {
         top: `${posY}px`
     }, { duration: 500, fill: "forwards"});
 });
+
+// Real time
+function updateClock() {
+    const now = new Date();
+
+    // Time formatting
+    let hours = now.getHours();
+    let minutes = now.getMinutes();
+    let ampm = hours >= 12 ? "pm" : "am";
+    hours = hours % 12;
+    hours = hours ? hours : 12; // 0 becomes 12
+    minutes = minutes < 10 ? "0" + minutes : minutes;
+
+    let timeString = hours + ":" + minutes;
+    let ampmString = ampm;
+
+    // Date formatting
+    const options = { month: "long", day: "numeric" };
+    const dateString = now.toLocaleDateString("en-US", options);
+
+    document.getElementById("time").textContent = timeString;
+    document.getElementById("am-pm").textContent = ampmString;
+    document.getElementById("date").textContent = dateString;
+}
+
+// Update every second
+setInterval(updateClock, 1000);
+updateClock();
