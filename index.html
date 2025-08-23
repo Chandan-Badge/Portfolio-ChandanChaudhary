@@ -17,8 +17,8 @@
     <script src="./src/auto-typing.js" defer></script>
 
     <!-- Scroll animation -->
-    <!-- <link rel="stylesheet" href="./src/scroll-animation/scroll.css">
-    <script src="./src/scroll-animation/scroll.js" defer></script> -->
+    <link rel="stylesheet" href="./src/scroll-animation/scroll.css">
+    <script src="./src/scroll-animation/scroll.js" defer></script>
 
     <!-- Linking Chatbot things -->
      <link rel="stylesheet" href="./src/chatbot/chatbot.css">
@@ -657,8 +657,8 @@
 
                     </button> -->
 
-                    <div class="flex gap-4">
-                      <button class="move-from-top-sm about-btn bg-white rounded-full active:[box-shadow:0_0_0_2px_#0f6dbf] group relative flex items-center gap-1 px-7 py-[6px] border-[2px] hover:border-[solid] border-transparent text-sm sm:text-base font-semibold text-[#1f387e] [box-shadow:0_0_0_2px_#ffffff] cursor-pointer overflow-hidden [transition:all_0.4s_cubic-bezier(0.23,_1,_0.32,_1)] hover:[box-shadow:0_0_0_12px_transparent">
+                    <div class="flex gap-4 flex-col sm:flex-row">
+                      <button class="move-from-top-sm about-btn w-max bg-white rounded-full active:[box-shadow:0_0_0_2px_#0f6dbf] group relative flex items-center gap-1 px-7 py-[6px] border-[2px] hover:border-[solid] border-transparent text-sm sm:text-base font-semibold text-[#1f387e] [box-shadow:0_0_0_2px_#ffffff] cursor-pointer overflow-hidden [transition:all_0.4s_cubic-bezier(0.23,_1,_0.32,_1)] hover:[box-shadow:0_0_0_12px_transparent">
                           <span class="absolute top-2/4 left-2/4 -translate-x-1/2 -translate-y-1/2 w-5 h-5 bg-[#c5e5e4] rounded-[50%] opacity-0 [transition:all_0.8s_cubic-bezier(0.23,_1,_0.32,_1)] group-hover:w-56 group-hover:h-56 group-hover:opacity-100"></span>
                           <svg xmlns="http://www.w3.org/2000/svg" class="group-hover:fill-[#1f387e] group-hover:left-4 -left-1/4 absolute w-6 fill-[#1f387e] [transition:all_0.8s_cubic-bezier(0.23,_1,_0.32,_1)]" viewBox="0 0 24 24">
                             <path
@@ -674,14 +674,14 @@
                       </button>
     
                       <a href="https://drive.google.com/file/d/1JwvzMMMnfaVjcqLk1Ei8RnqDI8pG4pTk/view?usp=sharing" target="_blank">
-                        <button class="px-1.5 sm:px-2 md:px-4 py-1.5 rounded-full hover:rounded-full font-semibold text-[10px] sm:text-xs md:text-base bg-[#fff] hover:bg-[#1f387e] dark:hover:bg-[#0a1338] relative text-[#1f387e] hover:text-[#fff] border-[2.5px] border-[#fff] transition-all ease-in-out duration-300 hover:shadow-[0_0px_2px_2px_rgb(255, 255,255)]">Download CV</button>
+                        <button class="px-2 md:px-4 py-1.5 rounded-full hover:rounded-full font-semibold text-xs md:text-base bg-[#fff] hover:bg-[#1f387e] dark:hover:bg-[#0a1338] relative text-[#1f387e] hover:text-[#fff] border-[2.5px] border-[#fff] transition-all ease-in-out duration-300 hover:shadow-[0_0px_2px_2px_rgb(255, 255,255)]">Download CV</button>
                       </a>
                     </div>
 
                 </div>
 
                 <!-- Latest development -->
-                <div class="w-48 sm:w-56 md:w-72 absolute mt-6 sm:mt-9 -ml-2 md:ml-2">
+                <div class="w-48 sm:w-56 md:w-72 absolute mt-6 sm:mt-9 -ml-2 md:ml-2 hidden sm:block">
                   <h3 class="move-from-bottom-sm pointer-events-none text-xs md:text-sm ml-7 md:ml-9 mb-1 font-semibold">🎉 Introducing latest projects...</h3>
                   
                   <div class="not-show-left-special slider-box mt-0 sm:mt-2 w-full h-32 flex items-center justify-center">
@@ -781,7 +781,7 @@
         <!-- Bottom Button of 1st Section -->
         <div class="relative self-center after:content-[''] after:absolute after:w-[2px] after:h-[14px] sm:after:h-[20px] after:bg-[#444] after:left-1/2 after:-translate-x-1/2 after:top-[80px] sm:after:top-[100px]">
 
-            <button class="move-from-bottom-sm drag-btn bg-[#03045e] px-4 sm:px-6 py-1.5 sm:py-2 rounded font-semibold text-sm sm:text-base bg-gradient-to-l from-[#0f6dbf] to-[#03045e] relative hover:scale-110 transition-all ease-in-out duration-100 group self-center mb-16 sm:mb-20">
+            <button class="move-from-bottom-sm drag-btn bg-[#03045e] px-4 sm:px-6 py-2 rounded font-semibold text-sm sm:text-base bg-gradient-to-l from-[#0f6dbf] to-[#03045e] relative hover:scale-110 transition-all ease-in-out duration-100 group self-center mb-16 sm:mb-20">
                 Explore Projects
     
                 <svg class="absolute rotate-90 left-1/2 -translate-x-1/2 top-9 sm:top-11 group-hover:top-10 sm:group-hover:top-12 ease-in-out duration-100 w-9 sm:w-11 h-9 sm:h-11" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" x="0px" y="0px" viewBox="0 0 100 100"><g transform="translate(0,-952.36218)"><path style="text-indent:0;text-transform:none;direction:ltr;block-progression:tb;baseline-shift:baseline;color:#000000;enable-background:accumulate;" d="m 88.999835,1002.3621 c 0,-0.4628 -0.2799,-1.0773 -0.5639,-1.3755 l -15.9997,-17.00026 c -0.747,-0.7723 -1.9572,-0.8618 -2.8281,-0.078 -0.7786,0.7007 -0.798,2.0673 -0.078,2.8282 l 12.8435,13.62516 -69.37347,0 c -1.1046,0 -2,0.8954 -2,2 0,1.1046 0.8954,2.0001 2,2.0001 l 69.37347,0 -12.8435,13.6252 c -0.7199,0.7608 -0.6688,2.0938 0.078,2.8281 0.7885,0.7752 2.0925,0.7062 2.8281,-0.078 l 15.9997,-17.0002 c 0.4701,-0.4611 0.556,-0.9052 0.5639,-1.3748 z" fill="#fff" fill-opacity="1" stroke="white" stroke-width="2"  marker="none" visibility="visible" display="inline" overflow="visible"/></g></svg>
