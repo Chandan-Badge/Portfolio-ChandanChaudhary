@@ -12,7 +12,7 @@ html {
 }
 
 .container {
-    /* visibility: hidden; */
+    visibility: hidden;
     /* transform: scale(0.9); */
 }
 
