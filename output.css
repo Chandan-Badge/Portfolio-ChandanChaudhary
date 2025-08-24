@@ -4480,16 +4480,8 @@ video {
   fill: #ff3737;
 }
 
-.group:hover .group-hover\:fill-\[\#f5c024\] {
-  fill: #f5c024;
-}
-
 .group:hover .group-hover\:fill-\[\#0f0\] {
   fill: #0f0;
-}
-
-.group:hover .group-hover\:fill-\[\#00f\] {
-  fill: #00f;
 }
 
 .group:hover .group-hover\:font-normal {
@@ -4499,11 +4491,6 @@ video {
 .group:hover .group-hover\:text-\[\#fff\] {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.group:hover .group-hover\:text-\[\#ff3737\] {
-  --tw-text-opacity: 1;
-  color: rgb(255 55 55 / var(--tw-text-opacity, 1));
 }
 
 .group:hover .group-hover\:opacity-100 {
