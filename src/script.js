@@ -11,7 +11,7 @@ closeBtn.addEventListener("click", () => {
     container.classList.remove("open-popup");
 })
 
-// Back to Top & Scroll
+// Back to Top & Scroll on footer logo
 let dragBtn = document.querySelector(".drag-btn");
 let move = document.querySelector(".move");
 
@@ -47,7 +47,7 @@ darkBtn.addEventListener("click", () => {
     html.classList.remove("dark");
 })
 
-// footer button scroll
+// Button for scroll on footer
 let aboutFoot = document.querySelector(".about-foot");
 aboutFoot.addEventListener("click", () => {
     window.scrollTo(0, 0);
@@ -66,28 +66,28 @@ projectFoot.addEventListener("click", () => {
 let servicesFoot = document.querySelector(".services-foot");
 
 servicesFoot.addEventListener("click", () => {
-    window.scrollTo(0, 2650);
+    window.scrollTo(0, 2950);
 })
 
 let principlesFoot = document.querySelector(".principles-foot");
 
 principlesFoot.addEventListener("click", () => {
-    window.scrollTo(0, 3130);
+    window.scrollTo(0, 3450);
 })
 
 let connectFoot = document.querySelector(".connect-foot");
 
 connectFoot.addEventListener("click", () => {
-    window.scrollTo(0, 3850);
+    window.scrollTo(0, 4150);
 })
 
 let testimonialsFoot = document.querySelector(".testimonials-foot");
 
 testimonialsFoot.addEventListener("click", () => {
-    window.scrollTo(0, 4500);
+    window.scrollTo(0, 4800);
 })
 
-// Back to Top from bottom logo
+// Main Back to Top bottom
 let totopBtn = document.querySelector(".totop-btn");
 totopBtn.addEventListener("click", () => {
     window.scrollTo(0, 0);
