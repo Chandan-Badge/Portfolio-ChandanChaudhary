@@ -4870,6 +4870,10 @@ video {
   fill: #6b7280;
 }
 
+.group:hover .dark\:group-hover\:fill-\[\#fff\]:is(.dark *) {
+  fill: #fff;
+}
+
 .group:hover .dark\:group-hover\:text-\[\#111\]:is(.dark *) {
   --tw-text-opacity: 1;
   color: rgb(17 17 17 / var(--tw-text-opacity, 1));
