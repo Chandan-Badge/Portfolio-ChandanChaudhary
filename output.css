@@ -2961,6 +2961,22 @@ video {
   fill: #fff;
 }
 
+.fill-\[\#3ddc84\] {
+  fill: #3ddc84;
+}
+
+.fill-\[\#073042\] {
+  fill: #073042;
+}
+
+.fill-\[\#4285f4\] {
+  fill: #4285f4;
+}
+
+.fill-\[\#000\] {
+  fill: #000;
+}
+
 .stroke-1 {
   stroke-width: 1;
 }
@@ -4444,10 +4460,6 @@ video {
   fill: #05055c;
 }
 
-.group:hover .group-hover\:fill-\[\#0f0\] {
-  fill: #0f0;
-}
-
 .group:hover .group-hover\:fill-\[\#0f6dbf\] {
   fill: #0f6dbf;
 }
@@ -4472,8 +4484,8 @@ video {
   fill: #9a9af9;
 }
 
-.group:hover .group-hover\:fill-\[\#9b9bfa\] {
-  fill: #9b9bfa;
+.group:hover .group-hover\:fill-\[\#FF6C37\] {
+  fill: #FF6C37;
 }
 
 .group:hover .group-hover\:fill-\[\#f0f6f7\] {
@@ -4484,24 +4496,24 @@ video {
   fill: #ff3737;
 }
 
-.group:hover .group-hover\:fill-yellow-800 {
-  fill: #854d0e;
-}
-
 .group:hover .group-hover\:fill-yellow-700 {
   fill: #a16207;
 }
 
-.group:hover .group-hover\:fill-orange-700 {
-  fill: #c2410c;
+.group:hover .group-hover\:fill-\[\#3ddc84\] {
+  fill: #3ddc84;
 }
 
-.group:hover .group-hover\:fill-orange-800 {
-  fill: #9a3412;
+.group:hover .group-hover\:fill-\[\#073042\] {
+  fill: #073042;
 }
 
-.group:hover .group-hover\:fill-\[\#FF6C37\] {
-  fill: #FF6C37;
+.group:hover .group-hover\:fill-\[\#4285f4\] {
+  fill: #4285f4;
+}
+
+.group:hover .group-hover\:fill-\[\#fff\] {
+  fill: #fff;
 }
 
 .group:hover .group-hover\:font-normal {
@@ -4700,6 +4712,10 @@ video {
 
 .dark\:fill-\[\#fff\]:is(.dark *) {
   fill: #fff;
+}
+
+.dark\:fill-\[\#000\]:is(.dark *) {
+  fill: #000;
 }
 
 .dark\:font-semibold:is(.dark *) {
@@ -5278,6 +5294,10 @@ video {
     height: 2.5rem;
   }
 
+  .md\:h-11 {
+    height: 2.75rem;
+  }
+
   .md\:h-32 {
     height: 8rem;
   }
@@ -5294,12 +5314,12 @@ video {
     height: 60px;
   }
 
-  .md\:h-11 {
-    height: 2.75rem;
-  }
-
   .md\:w-10 {
     width: 2.5rem;
+  }
+
+  .md\:w-11 {
+    width: 2.75rem;
   }
 
   .md\:w-14 {
@@ -5328,10 +5348,6 @@ video {
 
   .md\:w-\[550px\] {
     width: 550px;
-  }
-
-  .md\:w-11 {
-    width: 2.75rem;
   }
 
   .md\:translate-x-1\/3 {
