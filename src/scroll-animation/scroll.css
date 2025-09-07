@@ -262,6 +262,13 @@
 
 
 /* ==> New version animation */
+
+.blur-mode {
+    filter: blur(5px);
+    opacity: 0;
+    transition: all 1.5s;
+}
+
 .move-from-left-sm {
     /* display: none; */
     /* animation: moving .5s ease; */

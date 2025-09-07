@@ -58,6 +58,8 @@ const hiddenElementsRight_md = document.querySelectorAll(".move-from-right-md");
 const hiddenElementsTop_md = document.querySelectorAll(".move-from-top-md");
 const hiddenElementsBottom_md = document.querySelectorAll(".move-from-bottom-md");
 
+const hiddenElementsBlur = document.querySelectorAll(".blur-mode");
+
 hiddenElementsLeft_sm.forEach((e1) => observer2.observe(e1));
 hiddenElementsRight_sm.forEach((e1) => observer2.observe(e1));
 hiddenElementsTop_sm.forEach((e1) => observer2.observe(e1));
@@ -67,3 +69,5 @@ hiddenElementsLeft_md.forEach((e1) => observer2.observe(e1));
 hiddenElementsRight_md.forEach((e1) => observer2.observe(e1));
 hiddenElementsTop_md.forEach((e1) => observer2.observe(e1));
 hiddenElementsBottom_md.forEach((e1) => observer2.observe(e1));
+
+hiddenElementsBlur.forEach((e1) => observer2.observe(e1));
