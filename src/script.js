@@ -47,6 +47,21 @@ darkBtn.addEventListener("click", () => {
     html.classList.remove("dark");
 });
 
+// Main Back to Top bottom
+let totopBtn = document.querySelector(".totop-btn");
+totopBtn.addEventListener("click", () => {
+    window.scrollTo(0, 0);
+})
+
+window.addEventListener("scroll", () => {
+    if(window.pageYOffset > 100) {
+        totopBtn.classList.add("visible");
+    }
+    else {
+        totopBtn.classList.remove("visible");
+    }
+});
+
 // Custom Cursor
 const cursor = document.querySelector(".coursor");
 const cursorDot = document.querySelector(".coursor-dot");
