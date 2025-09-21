@@ -5531,6 +5531,10 @@ video {
     gap: 0.75rem;
   }
 
+  .lg\:gap-4 {
+    gap: 1rem;
+  }
+
   .lg\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
@@ -5579,6 +5583,10 @@ video {
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-\[15px\] {
+    font-size: 15px;
   }
 
   .dark\:lg\:hover\:\[paint-order\:markers\]:hover:is(.dark *) {
