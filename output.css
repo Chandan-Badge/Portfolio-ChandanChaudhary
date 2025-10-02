@@ -2847,11 +2847,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.bg-pink-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(219 39 119 / var(--tw-bg-opacity, 1));
-}
-
 .bg-gradient-to-l {
   background-image: linear-gradient(to left, var(--tw-gradient-stops));
 }
@@ -3009,14 +3004,6 @@ video {
 
 .fill-white {
   fill: #fff;
-}
-
-.fill-\[\#f00\] {
-  fill: #f00;
-}
-
-.fill-pink-700 {
-  fill: #be185d;
 }
 
 .stroke-1 {
@@ -4519,6 +4506,10 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
 }
 
+.group:hover .group-hover\:fill-\[\#000\] {
+  fill: #000;
+}
+
 .group:hover .group-hover\:fill-\[\#040404\] {
   fill: #040404;
 }
@@ -4589,14 +4580,6 @@ video {
 
 .group:hover .group-hover\:fill-yellow-700 {
   fill: #a16207;
-}
-
-.group:hover .group-hover\:fill-\[\#000\] {
-  fill: #000;
-}
-
-.group:hover .group-hover\:fill-\[\#f00\] {
-  fill: #f00;
 }
 
 .group:hover .group-hover\:font-normal {
@@ -4775,21 +4758,6 @@ video {
   background-color: rgb(220 38 38 / var(--tw-bg-opacity, 1));
 }
 
-.dark\:bg-pink-700:is(.dark *) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(190 24 93 / var(--tw-bg-opacity, 1));
-}
-
-.dark\:bg-black:is(.dark *) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
-}
-
-.dark\:bg-\[\#222222\]:is(.dark *) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(34 34 34 / var(--tw-bg-opacity, 1));
-}
-
 .dark\:bg-gradient-to-l:is(.dark *) {
   background-image: linear-gradient(to left, var(--tw-gradient-stops));
 }
@@ -4810,10 +4778,6 @@ video {
 
 .dark\:fill-\[\#111\]:is(.dark *) {
   fill: #111;
-}
-
-.dark\:fill-\[\#f00\]:is(.dark *) {
-  fill: #f00;
 }
 
 .dark\:fill-\[\#fff\]:is(.dark *) {
@@ -4891,11 +4855,6 @@ video {
 .dark\:text-white:is(.dark *) {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.dark\:text-pink-700:is(.dark *) {
-  --tw-text-opacity: 1;
-  color: rgb(190 24 93 / var(--tw-text-opacity, 1));
 }
 
 .dark\:drop-shadow-\[0_0px_20px_rgba\(59\2c 130\2c 246\2c 0\.3\)\]:is(.dark *) {
@@ -4989,10 +4948,6 @@ video {
 
 .group:hover .dark\:group-hover\:fill-gray-500:is(.dark *) {
   fill: #6b7280;
-}
-
-.group:hover .dark\:group-hover\:fill-\[\#111\]:is(.dark *) {
-  fill: #111;
 }
 
 .group:hover .dark\:group-hover\:text-\[\#111\]:is(.dark *) {
