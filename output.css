@@ -2016,10 +2016,6 @@ video {
   gap: 2rem;
 }
 
-.gap-y-10 {
-  row-gap: 2.5rem;
-}
-
 .gap-y-2 {
   row-gap: 0.5rem;
 }
@@ -2851,14 +2847,9 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.bg-pink-500 {
+.bg-pink-600 {
   --tw-bg-opacity: 1;
-  background-color: rgb(236 72 153 / var(--tw-bg-opacity, 1));
-}
-
-.bg-green-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(22 163 74 / var(--tw-bg-opacity, 1));
+  background-color: rgb(219 39 119 / var(--tw-bg-opacity, 1));
 }
 
 .bg-gradient-to-l {
@@ -3020,12 +3011,12 @@ video {
   fill: #fff;
 }
 
-.fill-\[\#7b218c\] {
-  fill: #7b218c;
-}
-
 .fill-\[\#f00\] {
   fill: #f00;
+}
+
+.fill-pink-700 {
+  fill: #be185d;
 }
 
 .stroke-1 {
@@ -3593,16 +3584,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-\[\#7b218c\] {
-  --tw-text-opacity: 1;
-  color: rgb(123 33 140 / var(--tw-text-opacity, 1));
-}
-
-.text-\[\#f00\] {
-  --tw-text-opacity: 1;
-  color: rgb(255 0 0 / var(--tw-text-opacity, 1));
 }
 
 .underline {
@@ -4578,6 +4559,10 @@ video {
   fill: #4285f4;
 }
 
+.group:hover .group-hover\:fill-\[\#4D9ABF\] {
+  fill: #4D9ABF;
+}
+
 .group:hover .group-hover\:fill-\[\#7b218c\] {
   fill: #7b218c;
 }
@@ -4606,8 +4591,12 @@ video {
   fill: #a16207;
 }
 
-.group:hover .group-hover\:fill-\[\#4D9ABF\] {
-  fill: #4D9ABF;
+.group:hover .group-hover\:fill-\[\#000\] {
+  fill: #000;
+}
+
+.group:hover .group-hover\:fill-\[\#f00\] {
+  fill: #f00;
 }
 
 .group:hover .group-hover\:font-normal {
@@ -4617,11 +4606,6 @@ video {
 .group:hover .group-hover\:text-\[\#fff\] {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.group:hover .group-hover\:text-\[\#7b218c\] {
-  --tw-text-opacity: 1;
-  color: rgb(123 33 140 / var(--tw-text-opacity, 1));
 }
 
 .group:hover .group-hover\:opacity-100 {
@@ -4791,6 +4775,21 @@ video {
   background-color: rgb(220 38 38 / var(--tw-bg-opacity, 1));
 }
 
+.dark\:bg-pink-700:is(.dark *) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(190 24 93 / var(--tw-bg-opacity, 1));
+}
+
+.dark\:bg-black:is(.dark *) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+}
+
+.dark\:bg-\[\#222222\]:is(.dark *) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 34 34 / var(--tw-bg-opacity, 1));
+}
+
 .dark\:bg-gradient-to-l:is(.dark *) {
   background-image: linear-gradient(to left, var(--tw-gradient-stops));
 }
@@ -4811,6 +4810,10 @@ video {
 
 .dark\:fill-\[\#111\]:is(.dark *) {
   fill: #111;
+}
+
+.dark\:fill-\[\#f00\]:is(.dark *) {
+  fill: #f00;
 }
 
 .dark\:fill-\[\#fff\]:is(.dark *) {
@@ -4890,6 +4893,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
+.dark\:text-pink-700:is(.dark *) {
+  --tw-text-opacity: 1;
+  color: rgb(190 24 93 / var(--tw-text-opacity, 1));
+}
+
 .dark\:drop-shadow-\[0_0px_20px_rgba\(59\2c 130\2c 246\2c 0\.3\)\]:is(.dark *) {
   --tw-drop-shadow: drop-shadow(0 0px 20px rgba(59,130,246,0.3));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
@@ -4967,6 +4975,10 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.group:hover .dark\:group-hover\:fill-\[\#000\]:is(.dark *) {
+  fill: #000;
+}
+
 .group:hover .dark\:group-hover\:fill-\[\#9d4edd\]:is(.dark *) {
   fill: #9d4edd;
 }
@@ -4979,18 +4991,13 @@ video {
   fill: #6b7280;
 }
 
-.group:hover .dark\:group-hover\:fill-\[\#000\]:is(.dark *) {
-  fill: #000;
+.group:hover .dark\:group-hover\:fill-\[\#111\]:is(.dark *) {
+  fill: #111;
 }
 
 .group:hover .dark\:group-hover\:text-\[\#111\]:is(.dark *) {
   --tw-text-opacity: 1;
   color: rgb(17 17 17 / var(--tw-text-opacity, 1));
-}
-
-.group:hover .dark\:group-hover\:text-\[\#9d4edd\]:is(.dark *) {
-  --tw-text-opacity: 1;
-  color: rgb(157 78 221 / var(--tw-text-opacity, 1));
 }
 
 .peer:focus ~ .dark\:peer-focus\:text-\[\#0f6dbf\]:is(.dark *) {
@@ -5617,10 +5624,6 @@ video {
 
   .lg\:gap-10 {
     gap: 2.5rem;
-  }
-
-  .lg\:gap-16 {
-    gap: 4rem;
   }
 
   .lg\:gap-3 {
