@@ -1,4 +1,7 @@
-// Button for scroll on footer
+// Home Section Button
+let dragBtn = document.querySelector(".drag-btn");
+
+// Footer Buttons
 let aboutFoot = document.querySelector(".about-foot");
 // let resumeFoot = document.querySelector(".resume-foot");
 let projectFoot = document.querySelector(".project-foot");
@@ -7,6 +10,7 @@ let principlesFoot = document.querySelector(".principles-foot");
 let connectFoot = document.querySelector(".connect-foot");
 let testimonialsFoot = document.querySelector(".testimonials-foot");
 
+// Getting the section for scroll
 const home = document.querySelector("#home-section");
 const projects = document.querySelector("#projects-section");
 const services = document.querySelector("#services-section");
@@ -14,6 +18,10 @@ const principles = document.querySelector("#principles-section");
 const connect = document.querySelector("#connect-section");
 const testimonials = document.querySelector("#testimonials-section");
 const footer = document.querySelector("#footer-section");
+
+dragBtn.addEventListener("click", () => {
+    projects.scrollIntoView({ behavior: 'smooth' });
+});
 
 aboutFoot.addEventListener("click", () => {
     home.scrollIntoView({ behavior: 'smooth' });
