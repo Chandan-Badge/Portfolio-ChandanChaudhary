@@ -51,6 +51,9 @@
       <link rel="stylesheet" href="./src/preloader/preloader.css">
       <script src="./src/preloader/preloader.js" defer></script>
 
+      <link rel="stylesheet" href="./src/home-animation/style.css">
+      <script src="./src/home-animation/script.js" defer></script>
+
       <!-- Meta tag for SEO -->
       <meta
           name="description"
@@ -137,6 +140,10 @@
         <div class="absolute inset-0 hidden md:block" id="wrapper-canvas">
           <!-- <canvas></canvas> -->
         </div>
+
+        <div class="geometric-background" id="geometric-background"></div>
+        <div class="particles" id="particles"></div>
+        <div class="gradient-overlay"></div>
 
         <!-- About me Popup -->
         <div class="container max-w-[1250px] h-[80%] sm:h-[90%] w-[90vw] fixed z-20 left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 text-white bg-[#fff] dark:bg-[#222] rounded-lg px-6 sm:px-12 py-8 md:py-8 gap-6 transition-all duration-150 ease-in-out shadow-[0_0_20px_rgba(0,0,0,0.3)]">
@@ -736,7 +743,7 @@
         </div>
 
         <!-- Mid Bar of 1st Section -->
-        <div class="flex -mt-0">
+        <div class="z-10 flex -mt-0">
 
             <div class="w-full px-4 max-w-screen-xl mx-auto relative">
                 <img loading="lazy" src="assets/images/C2-Logo-Color-2.png" alt="logo" class="pointer-events-none w-[260px] sm:w-[400px] md:w-[550px] lg:w-[650px] h-auto absolute -top-10 left-1/5 -translate-y-1/3 translate-x-1/4 md:translate-x-1/3 lg:translate-x-1/2 logo">
@@ -871,7 +878,7 @@
         </div>
 
         <!-- Bottom Button of 1st Section -->
-        <div class="relative self-center after:content-[''] after:absolute after:w-[2px] after:h-[14px] sm:after:h-[20px] after:bg-[#444] after:left-1/2 after:-translate-x-1/2 after:top-[80px] sm:after:top-[100px]">
+        <div class="z-10 relative self-center after:content-[''] after:absolute after:w-[2px] after:h-[14px] sm:after:h-[20px] after:bg-[#444] after:left-1/2 after:-translate-x-1/2 after:top-[80px] sm:after:top-[100px]">
 
             <button class="move-from-bottom-sm drag-btn bg-[#03045e] px-4 sm:px-6 py-2 rounded font-semibold text-sm sm:text-base bg-gradient-to-l from-[#0f6dbf] to-[#03045e] relative hover:scale-110 transition-all ease-in-out duration-100 group self-center mb-16 sm:mb-20">
                 Explore Projects
