@@ -152,3 +152,25 @@
         opacity: 1;
     }
 }
+
+@media (max-width: 640px) {
+    .square {
+        width: 25px;
+        height: 25px;
+    }
+
+    .circle {
+        width: 25px;
+        height: 25px;
+    }
+
+    .rectangle {
+        width: 25px;
+        height: 25px;
+    }
+
+    .triangle {
+        width: 25px;
+        height: 25px;
+    }
+}
