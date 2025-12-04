@@ -22,11 +22,11 @@
 }
 
 .circle {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background: #4cc9f0;
-    animation: pulse 15s infinite alternate;
+    animation: pulse-animation 15s infinite alternate;
 }
 
 .triangle {
@@ -55,7 +55,7 @@
     }
 }
 
-@keyframes pulse {
+@keyframes pulse-animation {
     0% {
         transform: scale(1);
         opacity: 0.1;
@@ -140,10 +140,10 @@
     height: 100%;
     /* background: radial-gradient(circle at center, transparent 0%, #1a1a2e 80%); */
     z-index: 5;
-    animation: pulse-overlay 10s infinite alternate;
+    animation: pulse-animation-overlay 10s infinite alternate;
 }
 
-@keyframes pulse-overlay {
+@keyframes pulse-animation-overlay {
     0% {
         opacity: 0.8;
     }
